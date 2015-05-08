@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A686C841AEE50B200181E1C /* TimerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A686C831AEE50B200181E1C /* TimerLabel.m */; };
 		6A8699E61AE7BC2F000BA3ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A8699E51AE7BC2F000BA3ED /* main.m */; };
 		6A8699E91AE7BC2F000BA3ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A8699E81AE7BC2F000BA3ED /* AppDelegate.m */; };
 		6A8699EC1AE7BC2F000BA3ED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A8699EB1AE7BC2F000BA3ED /* ViewController.m */; };
@@ -14,6 +15,8 @@
 		6A8699F11AE7BC2F000BA3ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A8699F01AE7BC2F000BA3ED /* Images.xcassets */; };
 		6A8699F41AE7BC2F000BA3ED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6A8699F21AE7BC2F000BA3ED /* LaunchScreen.xib */; };
 		6A869A001AE7BC2F000BA3ED /* StopItTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A8699FF1AE7BC2F000BA3ED /* StopItTests.m */; };
+		6AAF5BC11AFBA4B3007D458B /* SnowFallView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAF5BC01AFBA4B3007D458B /* SnowFallView.m */; };
+		6AAF5BC51AFBA60B007D458B /* snowflake.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AAF5BC41AFBA60B007D458B /* snowflake.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A686C821AEE50B200181E1C /* TimerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerLabel.h; sourceTree = "<group>"; };
+		6A686C831AEE50B200181E1C /* TimerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerLabel.m; sourceTree = "<group>"; };
 		6A8699E01AE7BC2F000BA3ED /* StopIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StopIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A8699E41AE7BC2F000BA3ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A8699E51AE7BC2F000BA3ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +45,9 @@
 		6A8699F91AE7BC2F000BA3ED /* StopItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StopItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A8699FE1AE7BC2F000BA3ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A8699FF1AE7BC2F000BA3ED /* StopItTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StopItTests.m; sourceTree = "<group>"; };
+		6AAF5BBF1AFBA4B3007D458B /* SnowFallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnowFallView.h; sourceTree = "<group>"; };
+		6AAF5BC01AFBA4B3007D458B /* SnowFallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnowFallView.m; sourceTree = "<group>"; };
+		6AAF5BC41AFBA60B007D458B /* snowflake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snowflake.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,11 @@
 		6A8699E21AE7BC2F000BA3ED /* StopIt */ = {
 			isa = PBXGroup;
 			children = (
+				6AAF5BC31AFBA60B007D458B /* Images */,
+				6AAF5BBF1AFBA4B3007D458B /* SnowFallView.h */,
+				6AAF5BC01AFBA4B3007D458B /* SnowFallView.m */,
+				6A686C821AEE50B200181E1C /* TimerLabel.h */,
+				6A686C831AEE50B200181E1C /* TimerLabel.m */,
 				6A8699E71AE7BC2F000BA3ED /* AppDelegate.h */,
 				6A8699E81AE7BC2F000BA3ED /* AppDelegate.m */,
 				6A8699EA1AE7BC2F000BA3ED /* ViewController.h */,
@@ -117,6 +130,14 @@
 				6A8699FE1AE7BC2F000BA3ED /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6AAF5BC31AFBA60B007D458B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6AAF5BC41AFBA60B007D458B /* snowflake.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +223,7 @@
 			files = (
 				6A8699EF1AE7BC2F000BA3ED /* Main.storyboard in Resources */,
 				6A8699F41AE7BC2F000BA3ED /* LaunchScreen.xib in Resources */,
+				6AAF5BC51AFBA60B007D458B /* snowflake.png in Resources */,
 				6A8699F11AE7BC2F000BA3ED /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,6 +242,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A686C841AEE50B200181E1C /* TimerLabel.m in Sources */,
+				6AAF5BC11AFBA4B3007D458B /* SnowFallView.m in Sources */,
 				6A8699EC1AE7BC2F000BA3ED /* ViewController.m in Sources */,
 				6A8699E91AE7BC2F000BA3ED /* AppDelegate.m in Sources */,
 				6A8699E61AE7BC2F000BA3ED /* main.m in Sources */,
@@ -351,6 +375,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "a481ca68-ac16-408d-ba08-d415f6a77b59";
+				VALID_ARCHS = "arm64 armv7";
 			};
 			name = Debug;
 		};
@@ -365,6 +390,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "a481ca68-ac16-408d-ba08-d415f6a77b59";
+				VALID_ARCHS = "arm64 armv7";
 			};
 			name = Release;
 		};

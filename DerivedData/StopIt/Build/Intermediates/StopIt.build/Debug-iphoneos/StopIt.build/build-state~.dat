@@ -1,0 +1,558 @@
+TStopIt
+v6
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode\ 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/ResourceRules.plist
+cCompileC DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/Objects-normal/armv7/TimerLabel.o /Users/vasanth/Local/iOS/StopIt/StopIt/TimerLabel.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/Objects-normal/armv7/ViewController.o /Users/vasanth/Local/iOS/StopIt/StopIt/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/Objects-normal/armv7/AppDelegate.o /Users/vasanth/Local/iOS/StopIt/StopIt/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/Objects-normal/armv7/main.o /Users/vasanth/Local/iOS/StopIt/StopIt/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/StopIt normal armv7
+cCompileStoryboard /Users/vasanth/Local/iOS/StopIt/StopIt/Base.lproj/Main.storyboard
+cCompileXIB /Users/vasanth/Local/iOS/StopIt/StopIt/Base.lproj/LaunchScreen.xib
+cCompileAssetCatalog /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app /Users/vasanth/Local/iOS/StopIt/StopIt/Images.xcassets
+cProcessInfoPlistFile /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/Info.plist /Users/vasanth/Local/iOS/StopIt/StopIt/Info.plist
+cGenerateDSYMFile /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app.dSYM /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/StopIt
+cProcessProductPackaging /Users/vasanth/Library/MobileDevice/Provisioning\ Profiles/00d3242a-ff56-4ed0-840c-16b0a5740f15.mobileprovision /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/embedded.mobileprovision
+cTouch /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app
+cProcessProductPackaging /Applications/Xcode\ 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/StopIt.xcent
+cCodeSign /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app
+
+N/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+c0000000053119F860000000000000132
+t1393663878
+s306
+
+N/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+c00000000533B9F800000000000000094
+t1396416384
+s148
+
+N/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+c00000000533B9F800000000000000096
+t1396416384
+s150
+
+N/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
+c00000000533B9F80000000000000036B
+t1396416384
+s875
+
+N/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000533B9F82000000000000019E
+t1396416386
+s414
+
+N/Applications/Xcode 5.1.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c00000000533B6DFC0000000000000ADC
+t1396403708
+s2780
+
+N/Users/vasanth/Library/MobileDevice/Provisioning Profiles/00d3242a-ff56-4ed0-840c-16b0a5740f15.mobileprovision
+c0000000054E30E100000000000002F39
+t1424166416
+s12089
+
+N/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/Objects-normal/armv7/AppDelegate.o
+t1430136615
+s61712
+
+N/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/Objects-normal/armv7/StopIt.LinkFileList
+c00000000553E27270000000000000247
+t1430136615
+s583
+
+N/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/Objects-normal/armv7/TimerLabel.o
+t1430136615
+s86128
+
+N/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/Objects-normal/armv7/ViewController.o
+t1430136615
+s96764
+
+N/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/Objects-normal/armv7/main.o
+t1430136615
+s3756
+
+N/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/StopIt.xcent
+t1430136621
+s479
+
+N/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/assetcatalog_dependencies.txt
+t1430136616
+s160
+
+N/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/assetcatalog_generated_info.plist
+t1430136616
+s181
+
+N/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app
+t1430136621
+s272
+
+N/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app.dSYM
+t2
+s0
+
+N/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/Base.lproj/LaunchScreen.nib
+t1430136619
+s136
+
+N/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/Base.lproj/Main.storyboardc
+t1430136616
+s170
+
+N/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/Info.plist
+t1430136620
+s1073
+
+N/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/PkgInfo
+t1430136620
+s8
+
+N/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/ResourceRules.plist
+t1430136615
+s150
+
+N/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/StopIt
+t1430136615
+s98376
+
+N/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/embedded.mobileprovision
+t1430136621
+s12089
+
+N/Users/vasanth/Local/iOS/StopIt/StopIt/AppDelegate.m
+c00000000553784AF00000000000007F2
+t1429701807
+s2034
+
+N/Users/vasanth/Local/iOS/StopIt/StopIt/Base.lproj/LaunchScreen.xib
+c00000000553784AF0000000000000E6E
+t1429701807
+s3694
+
+N/Users/vasanth/Local/iOS/StopIt/StopIt/Base.lproj/Main.storyboard
+c00000000553784AF0000000000000626
+t1429701807
+s1574
+
+N/Users/vasanth/Local/iOS/StopIt/StopIt/Images.xcassets
+c00000000553784AF0000000000000066
+t1429701807
+s102
+
+N/Users/vasanth/Local/iOS/StopIt/StopIt/Info.plist
+c00000000553CBD9D0000000000000490
+t1430044061
+s1168
+
+N/Users/vasanth/Local/iOS/StopIt/StopIt/TimerLabel.m
+c00000000553E18EE0000000000002795
+t1430132974
+s10133
+
+N/Users/vasanth/Local/iOS/StopIt/StopIt/ViewController.m
+c00000000553E23F0000000000000350A
+t1430135792
+s13578
+
+N/Users/vasanth/Local/iOS/StopIt/StopIt/main.m
+c00000000553784AF0000000000000151
+t1429701807
+s337
+
+CBuild AST from /Users/vasanth/Local/iOS/StopIt/StopIt/AppDelegate.m
+r0
+
+CBuild AST from /Users/vasanth/Local/iOS/StopIt/StopIt/TimerLabel.m
+r0
+
+CBuild AST from /Users/vasanth/Local/iOS/StopIt/StopIt/ViewController.m
+r0
+
+CBuild AST from /Users/vasanth/Local/iOS/StopIt/StopIt/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies67b70aa75eeeba41^bc2016a75eeeba41^---0#1#1#--18"Check dependencies36"B4DA7F22-BEF6-42A5-8533-8169A7E37BAA-
+
+CCodeSign /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app
+s451829421.119170
+e451829421.366903
+r1
+xCodeSign
+x/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"CodeSign DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app68"CodeSign DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app6aa524ad5eeeba41^67ee5dad5eeeba41^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/0000000000000000^1074"CodeSign DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app    cd /Users/vasanth/Local/iOS/StopIt    export CODESIGN_ALLOCATE="/Applications/Xcode 5.1.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate"    export PATH="/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 5.1.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    Using code signing identity "iPhone Developer: Krithika Harishankar (85598Q4KG7)" and provisioning profile "MSF Wildcard Development Profile" (00d3242a-ff56-4ed0-840c-16b0a5740f15)    /usr/bin/codesign --force --sign F8419E630BFA52AA2A3FAF937AB6180E1B2958B0 --resource-rules=/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/ResourceRules.plist --entitlements /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/StopIt.xcent /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app36"0B340546-7CFD-4FB3-A405-9AFBFF5D0CAE-
+b5722E7AA-BA3F-4A91-AF01-6B3AC87A48F6
+
+CCompileAssetCatalog /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app /Users/vasanth/Local/iOS/StopIt/StopIt/Images.xcassets
+s451829415.755145
+e451829416.495828
+r1
+xCompileAssetCatalog
+x/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app
+x/Users/vasanth/Local/iOS/StopIt/StopIt/Images.xcassets
+o/* com.apple.actool.document.warnings */
+o/Users/vasanth/Local/iOS/StopIt/StopIt/Images.xcassets:./AppIcon.appiconset/[iphone][29x29][][(null)]: warning: The app icon set "AppIcon" has 3 unassigned images.
+o/* com.apple.actool.compilation-results */
+o/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"CompileAssetCatalog DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app StopIt/Images.xcassets102"CompileAssetCatalog DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app StopIt/Images.xcassets3962c1a75eeeba41^67f17ea85eeeba41^-395"/* com.apple.actool.document.warnings *//Users/vasanth/Local/iOS/StopIt/StopIt/Images.xcassets:./AppIcon.appiconset/[iphone][29x29][][(null)]: warning: The app icon set "AppIcon" has 3 unassigned images./* com.apple.actool.compilation-results *//Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/assetcatalog_generated_info.plist1(21%IDEActivityLogMessage2@51"The app icon set "AppIcon" has 3 unassigned images.94"/Users/vasanth/Local/iOS/StopIt/StopIt/Images.xcassets:./AppIcon.appiconset/[iphone][29x29][][451829416#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@62"file:///Users/vasanth/Local/iOS/StopIt/StopIt/Images.xcassets/0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Asset Catalog Compiler Warning--0#0#1#-19%DVTDocumentLocation4@62"file:///Users/vasanth/Local/iOS/StopIt/StopIt/Images.xcassets/0000000000000000^1076"CompileAssetCatalog DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app StopIt/Images.xcassets    cd /Users/vasanth/Local/iOS/StopIt    export PATH="/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 5.1.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode\ 5.1.1.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/assetcatalog_generated_info.plist --app-icon AppIcon --platform iphoneos --minimum-deployment-target 6.1 --target-device iphone --compress-pngs --compile /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app /Users/vasanth/Local/iOS/StopIt/StopIt/Images.xcassets36"4101A2A4-AC6E-4239-8FFD-FAD1FE79BFE6-
+b5722E7AA-BA3F-4A91-AF01-6B3AC87A48F6
+
+CCompileC DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/Objects-normal/armv7/AppDelegate.o /Users/vasanth/Local/iOS/StopIt/StopIt/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s451829415.089526
+e451829415.178483
+r1
+xCompileC
+xDerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/Objects-normal/armv7/AppDelegate.o
+x/Users/vasanth/Local/iOS/StopIt/StopIt/AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/vasanth/Local/iOS/StopIt/StopIt/AppDelegate.m
+d/Users/vasanth/Local/iOS/StopIt/StopIt/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /Users/vasanth/Local/iOS/StopIt/StopIt/AppDelegate.m213"CompileC DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/Objects-normal/armv7/AppDelegate.o StopIt/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler941117a75eeeba41^2db22da75eeeba41^---0#0#1#-19%DVTDocumentLocation2@59"file:///Users/vasanth/Local/iOS/StopIt/StopIt/AppDelegate.m0000000000000000^3467"CompileC DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/Objects-normal/armv7/AppDelegate.o StopIt/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vasanth/Local/iOS/StopIt    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 5.1.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode\ 5.1.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/vasanth/Local/iOS/StopIt/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode\ 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/StopIt-generated-files.hmap -I/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/StopIt-own-target-headers.hmap -I/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/StopIt-all-target-headers.hmap -iquote /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/StopIt-project-headers.hmap -I/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/include -I/Applications/Xcode\ 5.1.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/DerivedSources/armv7 -I/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/DerivedSources -F/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos -MMD -MT dependencies -MF /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/Objects-normal/armv7/AppDelegate.dia -c /Users/vasanth/Local/iOS/StopIt/StopIt/AppDelegate.m -o /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/Objects-normal/armv7/AppDelegate.o36"B17591AE-6E7B-4801-86B2-9A43FEC2A29B-
+b5722E7AA-BA3F-4A91-AF01-6B3AC87A48F6
+
+CCompileC DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/Objects-normal/armv7/TimerLabel.o /Users/vasanth/Local/iOS/StopIt/StopIt/TimerLabel.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s451829415.088805
+e451829415.215211
+r1
+xCompileC
+xDerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/Objects-normal/armv7/TimerLabel.o
+x/Users/vasanth/Local/iOS/StopIt/StopIt/TimerLabel.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/vasanth/Local/iOS/StopIt/StopIt/TimerLabel.m
+d/Users/vasanth/Local/iOS/StopIt/StopIt/TimerLabel.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Compile /Users/vasanth/Local/iOS/StopIt/StopIt/TimerLabel.m211"CompileC DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/Objects-normal/armv7/TimerLabel.o StopIt/TimerLabel.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler8fe416a75eeeba41^3b1a37a75eeeba41^---0#0#1#-19%DVTDocumentLocation2@58"file:///Users/vasanth/Local/iOS/StopIt/StopIt/TimerLabel.m0000000000000000^3461"CompileC DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/Objects-normal/armv7/TimerLabel.o StopIt/TimerLabel.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vasanth/Local/iOS/StopIt    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 5.1.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode\ 5.1.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/vasanth/Local/iOS/StopIt/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode\ 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/StopIt-generated-files.hmap -I/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/StopIt-own-target-headers.hmap -I/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/StopIt-all-target-headers.hmap -iquote /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/StopIt-project-headers.hmap -I/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/include -I/Applications/Xcode\ 5.1.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/DerivedSources/armv7 -I/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/DerivedSources -F/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos -MMD -MT dependencies -MF /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/Objects-normal/armv7/TimerLabel.d --serialize-diagnostics /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/Objects-normal/armv7/TimerLabel.dia -c /Users/vasanth/Local/iOS/StopIt/StopIt/TimerLabel.m -o /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/Objects-normal/armv7/TimerLabel.o36"4DD2594E-790B-44EA-B00F-57A8797E9AA7-
+b5722E7AA-BA3F-4A91-AF01-6B3AC87A48F6
+
+CCompileC DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/Objects-normal/armv7/ViewController.o /Users/vasanth/Local/iOS/StopIt/StopIt/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s451829415.089164
+e451829415.222590
+r1
+xCompileC
+xDerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/Objects-normal/armv7/ViewController.o
+x/Users/vasanth/Local/iOS/StopIt/StopIt/ViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/vasanth/Local/iOS/StopIt/StopIt/ViewController.m
+d/Users/vasanth/Local/iOS/StopIt/StopIt/ViewController.h
+d/Users/vasanth/Local/iOS/StopIt/StopIt/TimerLabel.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /Users/vasanth/Local/iOS/StopIt/StopIt/ViewController.m219"CompileC DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/Objects-normal/armv7/ViewController.o StopIt/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler66f916a75eeeba41^e7fc38a75eeeba41^---0#0#1#-19%DVTDocumentLocation2@62"file:///Users/vasanth/Local/iOS/StopIt/StopIt/ViewController.m0000000000000000^3485"CompileC DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/Objects-normal/armv7/ViewController.o StopIt/ViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vasanth/Local/iOS/StopIt    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 5.1.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode\ 5.1.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/vasanth/Local/iOS/StopIt/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode\ 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/StopIt-generated-files.hmap -I/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/StopIt-own-target-headers.hmap -I/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/StopIt-all-target-headers.hmap -iquote /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/StopIt-project-headers.hmap -I/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/include -I/Applications/Xcode\ 5.1.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/DerivedSources/armv7 -I/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/DerivedSources -F/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos -MMD -MT dependencies -MF /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/Objects-normal/armv7/ViewController.d --serialize-diagnostics /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/Objects-normal/armv7/ViewController.dia -c /Users/vasanth/Local/iOS/StopIt/StopIt/ViewController.m -o /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/Objects-normal/armv7/ViewController.o36"843613EE-5129-458A-98C6-6F1FDEE69DC2-
+b5722E7AA-BA3F-4A91-AF01-6B3AC87A48F6
+
+CCompileC DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/Objects-normal/armv7/main.o /Users/vasanth/Local/iOS/StopIt/StopIt/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s451829415.090317
+e451829415.136475
+r1
+xCompileC
+xDerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/Objects-normal/armv7/main.o
+x/Users/vasanth/Local/iOS/StopIt/StopIt/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/vasanth/Local/iOS/StopIt/StopIt/main.m
+d/Users/vasanth/Local/iOS/StopIt/StopIt/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Compile /Users/vasanth/Local/iOS/StopIt/StopIt/main.m199"CompileC DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/Objects-normal/armv7/main.o StopIt/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerff3e17a75eeeba41^45f122a75eeeba41^---0#0#1#-19%DVTDocumentLocation2@52"file:///Users/vasanth/Local/iOS/StopIt/StopIt/main.m0000000000000000^3425"CompileC DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/Objects-normal/armv7/main.o StopIt/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/vasanth/Local/iOS/StopIt    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 5.1.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode\ 5.1.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/vasanth/Local/iOS/StopIt/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode\ 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=6.1 -iquote /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/StopIt-generated-files.hmap -I/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/StopIt-own-target-headers.hmap -I/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/StopIt-all-target-headers.hmap -iquote /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/StopIt-project-headers.hmap -I/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/include -I/Applications/Xcode\ 5.1.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/DerivedSources/armv7 -I/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/DerivedSources -F/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos -MMD -MT dependencies -MF /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/Objects-normal/armv7/main.dia -c /Users/vasanth/Local/iOS/StopIt/StopIt/main.m -o /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/Objects-normal/armv7/main.o36"C1C76E36-91F4-4B07-9E3E-CEF44336E7CC-
+b5722E7AA-BA3F-4A91-AF01-6B3AC87A48F6
+
+CCompileStoryboard /Users/vasanth/Local/iOS/StopIt/StopIt/Base.lproj/Main.storyboard
+s451829415.754517
+e451829416.527722
+r1
+xCompileStoryboard
+x/Users/vasanth/Local/iOS/StopIt/StopIt/Base.lproj/Main.storyboard
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"CompileStoryboard StopIt/Base.lproj/Main.storyboard51"CompileStoryboard StopIt/Base.lproj/Main.storyboard9b3cc1a75eeeba41^f01787a85eeeba41^---0#0#1#-19%DVTDocumentLocation2@72"file:///Users/vasanth/Local/iOS/StopIt/StopIt/Base.lproj/Main.storyboard0000000000000000^802"CompileStoryboard StopIt/Base.lproj/Main.storyboard    cd /Users/vasanth/Local/iOS/StopIt    export IBSC_MINIMUM_COMPATIBILITY_VERSION=6.1    export PATH="/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 5.1.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH="/Applications/Xcode 5.1.1.app/Contents/Developer/usr/bin/.."    /Applications/Xcode\ 5.1.1.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 6.1 --output-format human-readable-text --compile /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/Base.lproj/Main.storyboardc /Users/vasanth/Local/iOS/StopIt/StopIt/Base.lproj/Main.storyboard36"CC31260A-4458-424D-BC8E-0C5871D2F648-
+b5722E7AA-BA3F-4A91-AF01-6B3AC87A48F6
+
+CCompileXIB /Users/vasanth/Local/iOS/StopIt/StopIt/Base.lproj/LaunchScreen.xib
+s451829415.754700
+e451829420.983003
+r1
+xCompileXIB
+x/Users/vasanth/Local/iOS/StopIt/StopIt/Base.lproj/LaunchScreen.xib
+o2015-04-27 17:40:19.624 ibtoold[8061:507] [MT] DVTAssertions: Warning in /SourceCache/IDEInterfaceBuilder/IDEInterfaceBuilder-5056/InterfaceBuilderKit/Document/IBDocument.m:8277
+oDetails:  We can't open an implicit undo group because there is no undo manager and so the undo group will never get closed and we will be left with a broken arbitration stack. Whoever is invalidating constraints needs to do so in an auto layout safe block.
+o  0. IDEInterfaceBuilderKit   0x000000010ea2117f -[IBDocument invalidateConstraintsForHierarchyContainingObject:forceInvalidationOfDescendants:reasonBlock:]
+o  1. IDEInterfaceBuilderKit   0x000000010ea21544 -[IBDocument invalidateConstraintsForHierarchyContainingObject:reasonBlock:]
+o  2. IDEInterfaceBuilderCocoaTouchIntegration 0x0000000114d66eda [IBUIView invalidateCachedGeometry]
+o  3. IDEInterfaceBuilderCocoaTouchIntegration 0x0000000114d04f4b [IBUILabel setText:]
+o  4. Foundation               0x00007fff86ef9dbe -[NSObject(NSKeyValueCoding) setValue:forKey:]
+o  5. Foundation               0x00007fff86f2d864 -[NSObject(NSKeyValueCoding) setValue:forKeyPath:]
+o  6. AppKit                   0x00007fff8c7f35a1 -[NSView setValue:forKeyPath:]
+o  7. IDEInterfaceBuilderKit   0x000000010ec4adf5 -[NSObject(IBMemberIntegration) ibSwapInLocalizableStringsDuringCompilingInDocument:usingContext:]
+o  8. IDEInterfaceBuilderKit   0x000000010ec4a934 -[NSObject(IBMemberIntegration) ibSwapInLocalizableStringsIfNeededInDocument:withContext:]
+o  9. IDEInterfaceBuilderKit   0x000000010ea8e5f4 -[NSObject(IBFrameworkObjectIntegration) ibBeginArchivingDocument:withContext:]
+o 10. IDEInterfaceBuilderCocoaIntegration 0x000000011496b5fe -[NSObject(IBAppKitObjectIntegration) ibSwizzledBeginArchivingDocument:withContext:]
+o 11. IDEInterfaceBuilderKit   0x000000010eaa1a82 -[NSView(IBViewIntegration) ibBeginArchivingDocument:withContext:]
+o 12. IDEInterfaceBuilderCocoaIntegration 0x00000001149207d5 -[NSView(IBAppKitViewIntegration) ibSwizzledNSViewBeginArchivingDocument:withContext:]
+o 13. IDEInterfaceBuilderKit   0x000000010ea8e594 -[NSObject(IBFrameworkObjectIntegration) ibBeginArchivingDocument:withContext:]
+o 14. IDEInterfaceBuilderCocoaIntegration 0x000000011496b5fe -[NSObject(IBAppKitObjectIntegration) ibSwizzledBeginArchivingDocument:withContext:]
+o 15. IDEInterfaceBuilderKit   0x000000010eaa1a82 -[NSView(IBViewIntegration) ibBeginArchivingDocument:withContext:]
+o 16. IDEInterfaceBuilderCocoaIntegration 0x00000001149207d5 -[NSView(IBAppKitViewIntegration) ibSwizzledNSViewBeginArchivingDocument:withContext:]
+o 17. IDEInterfaceBuilderKit   0x000000010e9e4da2 -[IBDocument willArchiveWithContext:]
+o 18. IDEInterfaceBuilderCocoaTouchIntegration 0x0000000114de734c [IBCocoaTouchDocument compiledKeyedObjectsDataWithMarshallingContext:archivingContext:]
+o 19. IDEInterfaceBuilderCocoaTouchIntegration 0x0000000114de7dfb [IBCocoaTouchDocument compiledPackageWithOptions:marshallingContext:archivingContext:]
+o 20. IDEInterfaceBuilderCocoaTouchIntegration 0x0000000114de8116 [IBCocoaTouchDocument internalCompiledPackageWithOptions:error:]
+o 21. IDEInterfaceBuilderKit   0x000000010e9fd7b1 __47-[IBDocument compiledPackageWithOptions:error:]_block_invoke
+o 22. IDEInterfaceBuilderKit   0x000000010ea220c9 -[IBDocument assertIfArbitrationIsScheduledDuring:]
+o 23. IDEInterfaceBuilderKit   0x000000010e9fd722 -[IBDocument compiledPackageWithOptions:error:]
+o 24. ???                      0x000000010e7d1f8b [IBCLIInterfaceBuilderToolPersona invokeArguments:outputDictionary:]
+o 25. ???                      0x000000010e7d53ad [IBCLIInterfaceBuilderToolPersona runSingleInvocation:outputtingToFileHandle:andVerifyingEnvironment:]
+o 26. ???                      0x000000010e7dfb65 [IBCLIServerRelocationDetector .cxx_destruct]
+o 27. ???                      0x000000010e7e00c0 [IBCLIServerRelocationDetector .cxx_destruct]
+o 28. ???                      0x000000010e7dff90 [IBCLIServerRelocationDetector .cxx_destruct]
+o 29. ???                      0x000000010e7de3e7 [IBCLIErrorForwarder forwardErrorOutputToDescriptor:whileInvokingBlock:]
+o 30. ???                      0x000000010e7df7b7 [IBCLIServerRelocationDetector .cxx_destruct]
+o 31. ???                      0x000000010e7ded6e [IBCLIServerRelocationDetector .cxx_destruct]
+o 32. libdyld.dylib            0x00007fff8863c5fd start
+oObject:   <IBCocoaTouchDocument: 0x7f7fda06b000>
+oMethod:   -invalidateConstraintsForObjectRepresentation:withBlock:
+oThread:   <NSThread: 0x7f7fd870ef60>{name = (null), num = 1}
+oPlease file a bug at http://bugreport.apple.com with this warning message and any useful information you can provide.
+o2015-04-27 17:40:19.626 ibtoold[8061:507] [MT] DVTAssertions: Warning in /SourceCache/IDEInterfaceBuilder/IDEInterfaceBuilder-5056/InterfaceBuilderKit/Document/IBDocument.m:8282
+oDetails:  You cannot invalidate constraints for an object unless you are in a block that guarantees that constraints will be updated
+oObject:   <IBCocoaTouchDocument: 0x7f7fda06b000>
+oMethod:   -invalidateConstraintsForObjectRepresentation:withBlock:
+oThread:   <NSThread: 0x7f7fd870ef60>{name = (null), num = 1}
+oPlease file a bug at http://bugreport.apple.com with this warning message and any useful information you can provide.
+o2015-04-27 17:40:19.854 ibtoold[8061:507] [MT] DVTAssertions: Warning in /SourceCache/IDEInterfaceBuilder/IDEInterfaceBuilder-5056/InterfaceBuilderKit/Document/IBDocument.m:8271
+oDetails:  We can't push on an implicit arbitration stack entry that is supposed to be cleared on didFinishEditing because there is no undo manager and so didFinishEditing will not get called and we will be left with a broken arbitration stack. Whoever is invalidating constraints needs to do so in an auto layout safe block.
+o  0. IDEInterfaceBuilderKit   0x000000010ea2117f -[IBDocument invalidateConstraintsForHierarchyContainingObject:forceInvalidationOfDescendants:reasonBlock:]
+o  1. IDEInterfaceBuilderKit   0x000000010ea21544 -[IBDocument invalidateConstraintsForHierarchyContainingObject:reasonBlock:]
+o  2. IDEInterfaceBuilderCocoaTouchIntegration 0x0000000114d66eda [IBUIView invalidateCachedGeometry]
+o  3. IDEInterfaceBuilderCocoaTouchIntegration 0x0000000114d04f4b [IBUILabel setText:]
+o  4. Foundation               0x00007fff86ef9dbe -[NSObject(NSKeyValueCoding) setValue:forKey:]
+o  5. Foundation               0x00007fff86f2d864 -[NSObject(NSKeyValueCoding) setValue:forKeyPath:]
+o  6. AppKit                   0x00007fff8c7f35a1 -[NSView setValue:forKeyPath:]
+o  7. IDEInterfaceBuilderKit   0x000000010ec4ae0c -[NSObject(IBMemberIntegration) ibSwapInLocalizableStringsDuringCompilingInDocument:usingContext:]
+o  8. IDEInterfaceBuilderKit   0x000000010ec4a934 -[NSObject(IBMemberIntegration) ibSwapInLocalizableStringsIfNeededInDocument:withContext:]
+o  9. IDEInterfaceBuilderKit   0x000000010ea8e5f4 -[NSObject(IBFrameworkObjectIntegration) ibBeginArchivingDocument:withContext:]
+o 10. IDEInterfaceBuilderCocoaIntegration 0x000000011496b5fe -[NSObject(IBAppKitObjectIntegration) ibSwizzledBeginArchivingDocument:withContext:]
+o 11. IDEInterfaceBuilderKit   0x000000010eaa1a82 -[NSView(IBViewIntegration) ibBeginArchivingDocument:withContext:]
+o 12. IDEInterfaceBuilderCocoaIntegration 0x00000001149207d5 -[NSView(IBAppKitViewIntegration) ibSwizzledNSViewBeginArchivingDocument:withContext:]
+o 13. IDEInterfaceBuilderKit   0x000000010ea8e594 -[NSObject(IBFrameworkObjectIntegration) ibBeginArchivingDocument:withContext:]
+o 14. IDEInterfaceBuilderCocoaIntegration 0x000000011496b5fe -[NSObject(IBAppKitObjectIntegration) ibSwizzledBeginArchivingDocument:withContext:]
+o 15. IDEInterfaceBuilderKit   0x000000010eaa1a82 -[NSView(IBViewIntegration) ibBeginArchivingDocument:withContext:]
+o 16. IDEInterfaceBuilderCocoaIntegration 0x00000001149207d5 -[NSView(IBAppKitViewIntegration) ibSwizzledNSViewBeginArchivingDocument:withContext:]
+o 17. IDEInterfaceBuilderKit   0x000000010e9e4da2 -[IBDocument willArchiveWithContext:]
+o 18. IDEInterfaceBuilderCocoaTouchIntegration 0x0000000114de734c [IBCocoaTouchDocument compiledKeyedObjectsDataWithMarshallingContext:archivingContext:]
+o 19. IDEInterfaceBuilderCocoaTouchIntegration 0x0000000114de7dfb [IBCocoaTouchDocument compiledPackageWithOptions:marshallingContext:archivingContext:]
+o 20. IDEInterfaceBuilderCocoaTouchIntegration 0x0000000114de8116 [IBCocoaTouchDocument internalCompiledPackageWithOptions:error:]
+o 21. IDEInterfaceBuilderKit   0x000000010e9fd7b1 __47-[IBDocument compiledPackageWithOptions:error:]_block_invoke
+o 22. IDEInterfaceBuilderKit   0x000000010ea220c9 -[IBDocument assertIfArbitrationIsScheduledDuring:]
+o 23. IDEInterfaceBuilderKit   0x000000010e9fd722 -[IBDocument compiledPackageWithOptions:error:]
+o 24. ???                      0x000000010e7d1f8b [IBCLIInterfaceBuilderToolPersona invokeArguments:outputDictionary:]
+o 25. ???                      0x000000010e7d53ad [IBCLIInterfaceBuilderToolPersona runSingleInvocation:outputtingToFileHandle:andVerifyingEnvironment:]
+o 26. ???                      0x000000010e7dfb65 [IBCLIServerRelocationDetector .cxx_destruct]
+o 27. ???                      0x000000010e7e00c0 [IBCLIServerRelocationDetector .cxx_destruct]
+o 28. ???                      0x000000010e7dff90 [IBCLIServerRelocationDetector .cxx_destruct]
+o 29. ???                      0x000000010e7de3e7 [IBCLIErrorForwarder forwardErrorOutputToDescriptor:whileInvokingBlock:]
+o 30. ???                      0x000000010e7df7b7 [IBCLIServerRelocationDetector .cxx_destruct]
+o 31. ???                      0x000000010e7ded6e [IBCLIServerRelocationDetector .cxx_destruct]
+o 32. libdyld.dylib            0x00007fff8863c5fd start
+oObject:   <IBCocoaTouchDocument: 0x7f7fda06b000>
+oMethod:   -invalidateConstraintsForObjectRepresentation:withBlock:
+oThread:   <NSThread: 0x7f7fd870ef60>{name = (null), num = 1}
+oPlease file a bug at http://bugreport.apple.com with this warning message and any useful information you can provide.
+o2015-04-27 17:40:20.975 ibtoold[8061:507] [MT] DVTAssertions: Warning in /SourceCache/DVTFrameworks/DVTFrameworks-5074/DVTKit/Utilities/DVTUndoManager.m:153
+oDetails:  <rdar://problem/9824173> Removing all actions while there are open undo groups.  Current backtrace:  0  0x0000000110f53d8e __34-[DVTUndoManager removeAllActions]_block_invoke86 (in DVTKit)
+o  1  0x000000010f9af91e DVTInvokeWithLazyFailureHint (in DVTFoundation)
+o  2  0x0000000110e7b672 -[DVTUndoManager removeAllActions] (in DVTKit)
+o  3  0x000000010ea2c38d -[IBDocumentUndoManager removeAllActions] (in IDEInterfaceBuilderKit)
+o  4  0x0000000110f548cc -[DVTUndoManager primitiveInvalidate] (in DVTKit)
+o  5  0x000000010ea2c23d -[IBDocumentUndoManager primitiveInvalidate] (in IDEInterfaceBuilderKit)
+o  6  0x000000010f8cd85a -[DVTInvalidationMixIn invalidate] (in DVTFoundation)
+o  7  0x000000010fdd8e17 -[IDEEditorDocument ide_setUndoManager:] (in IDEKit)
+o  8  0x000000010fdd8322 -[IDEEditorDocument close] (in IDEKit)
+o  9  0x000000011005a899 __54-[IDEEditorDocument closePrivateDocumentSynchronously]_block_invoke (in IDEKit)
+o 10  0x00007fff8ca7b850 __53-[NSDocument performSynchronousFileAccessUsingBlock:]_block_invoke (in AppKit)
+o 11  0x000000011005577d __50-[IDEEditorDocument continueFileAccessUsingBlock:]_block_invoke72 (in IDEKit)
+o 12  0x00007fff8ca7a955 -[NSDocument continueFileAccessUsingBlock:] (in AppKit)
+o 13  0x000000010fe8a25c -[IDEEditorDocument continueFileAccessUsingBlock:] (in IDEKit)
+o 14  0x00007fff8ca7aded -[NSDocument _performFileAccessOnMainThread:usingBlock:] (in AppKit)
+o 15  0x00007fff8ca7b835 -[NSDocument performSynchronousFileAccessUsingBlock:] (in AppKit)
+o 16  0x000000011005a6bd -[IDEEditorDocument closePrivateDocumentSynchronously] (in IDEKit)
+o 17  0x000000010e7d321b (in ibtoold)
+o 18  0x000000010e7d53ad (in ibtoold)
+o 19  0x000000010e7dfb65 (in ibtoold)
+o 20  0x000000010e7e00c0 (in ibtoold)
+o 21  0x000000010e7dff90 (in ibtoold)
+o 22  0x000000010e7de3e7 (in ibtoold)
+o 23  0x000000010e7df7b7 (in ibtoold)
+o 24  0x000000010e7ded6e (in ibtoold)
+o 25  0x00007fff8863c5fd start (in libdyld.dylib)
+o
+o
+o Ordered begin/end backtraces:
+o
+o  0  0x0000000110f541f4 __35-[DVTUndoManager beginUndoGrouping]_block_invoke107 (in DVTKit)
+o  1  0x000000010f9af91e DVTInvokeWithLazyFailureHint (in DVTFoundation)
+o  2  0x0000000110e7ed87 -[DVTUndoManager beginUndoGrouping] (in DVTKit)
+o  3  0x00007fff86f43327 -[NSUndoManager _setGroupIdentifier:] (in Foundation)
+o  4  0x000000010ea14511 -[IBDocument openImplicitUndoGroup] (in IDEInterfaceBuilderKit)
+o  5  0x000000010ea20e29 -[IBDocument invalidateConstraintsForObjectRepresentation:withBlock:] (in IDEInterfaceBuilderKit)
+o  6  0x000000010ea2117f -[IBDocument invalidateConstraintsForHierarchyContainingObject:forceInvalidationOfDescendants:reasonBlock:] (in IDEInterfaceBuilderKit)
+o  7  0x000000010ea21544 -[IBDocument invalidateConstraintsForHierarchyContainingObject:reasonBlock:] (in IDEInterfaceBuilderKit)
+o  8  0x0000000114d66eda (in IDEInterfaceBuilderCocoaTouchIntegration)
+o  9  0x0000000114d04f4b (in IDEInterfaceBuilderCocoaTouchIntegration)
+o 10  0x00007fff86ef9dbe -[NSObject(NSKeyValueCoding) setValue:forKey:] (in Foundation)
+o 11  0x00007fff86f2d864 -[NSObject(NSKeyValueCoding) setValue:forKeyPath:] (in Foundation)
+o 12  0x00007fff8c7f35a1 -[NSView setValue:forKeyPath:] (in AppKit)
+o 13  0x000000010ec4adf5 -[NSObject(IBMemberIntegration) ibSwapInLocalizableStringsDuringCompilingInDocument:usingContext:] (in IDEInterfaceBuilderKit)
+o 14  0x000000010ec4a934 -[NSObject(IBMemberIntegration) ibSwapInLocalizableStringsIfNeededInDocument:withContext:] (in IDEInterfaceBuilderKit)
+o 15  0x000000010ea8e5f4 -[NSObject(IBFrameworkObjectIntegration) ibBeginArchivingDocument:withContext:] (in IDEInterfaceBuilderKit)
+o 16  0x000000011496b5fe -[NSObject(IBAppKitObjectIntegration) ibSwizzledBeginArchivingDocument:withContext:] (in IDEInterfaceBuilderCocoaIntegration)
+o 17  0x000000010eaa1a82 -[NSView(IBViewIntegration) ibBeginArchivingDocument:withContext:] (in IDEInterfaceBuilderKit)
+o 18  0x00000001149207d5 -[NSView(IBAppKitViewIntegration) ibSwizzledNSViewBeginArchivingDocument:withContext:] (in IDEInterfaceBuilderCocoaIntegration)
+o 19  0x000000010ea8e594 -[NSObject(IBFrameworkObjectIntegration) ibBeginArchivingDocument:withContext:] (in IDEInterfaceBuilderKit)
+o 20  0x000000011496b5fe -[NSObject(IBAppKitObjectIntegration) ibSwizzledBeginArchivingDocument:withContext:] (in IDEInterfaceBuilderCocoaIntegration)
+o 21  0x000000010eaa1a82 -[NSView(IBViewIntegration) ibBeginArchivingDocument:withContext:] (in IDEInterfaceBuilderKit)
+o 22  0x00000001149207d5 -[NSView(IBAppKitViewIntegration) ibSwizzledNSViewBeginArchivingDocument:withContext:] (in IDEInterfaceBuilderCocoaIntegration)
+o 23  0x000000010e9e4da2 -[IBDocument willArchiveWithContext:] (in IDEInterfaceBuilderKit)
+o 24  0x0000000114de734c (in IDEInterfaceBuilderCocoaTouchIntegration)
+o 25  0x0000000114de7dfb (in IDEInterfaceBuilderCocoaTouchIntegration)
+o 26  0x0000000114de8116 (in IDEInterfaceBuilderCocoaTouchIntegration)
+o 27  0x000000010e9fd7b1 __47-[IBDocument compiledPackageWithOptions:error:]_block_invoke (in IDEInterfaceBuilderKit)
+o 28  0x000000010ea220c9 -[IBDocument assertIfArbitrationIsScheduledDuring:] (in IDEInterfaceBuilderKit)
+o 29  0x000000010e9fd722 -[IBDocument compiledPackageWithOptions:error:] (in IDEInterfaceBuilderKit)
+o 30  0x000000010e7d1f8b (in ibtoold)
+o 31  0x000000010e7d53ad (in ibtoold)
+o 32  0x000000010e7dfb65 (in ibtoold)
+o 33  0x000000010e7e00c0 (in ibtoold)
+o 34  0x000000010e7dff90 (in ibtoold)
+o 35  0x000000010e7de3e7 (in ibtoold)
+o 36  0x000000010e7df7b7 (in ibtoold)
+o 37  0x000000010e7ded6e (in ibtoold)
+o 38  0x00007fff8863c5fd start (in libdyld.dylib)
+o
+oObject:   <IBDocumentUndoManager: 0x7f7fdaaf72e0>
+oMethod:   -removeAllActions
+oThread:   <NSThread: 0x7f7fd870ef60>{name = (null), num = 1}
+oPlease file a bug at http://bugreport.apple.com with this warning message and any useful information you can provide.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compiling /Users/vasanth/Local/iOS/StopIt/StopIt/Base.lproj/LaunchScreen.xib45"CompileXIB StopIt/Base.lproj/LaunchScreen.xibbf47c1a75eeeba41^d3a5fbac5eeeba41^-11776"2015-04-27 17:40:19.624 ibtoold[8061:507] [MT] DVTAssertions: Warning in /SourceCache/IDEInterfaceBuilder/IDEInterfaceBuilder-5056/InterfaceBuilderKit/Document/IBDocument.m:8277Details:  We can't open an implicit undo group because there is no undo manager and so the undo group will never get closed and we will be left with a broken arbitration stack. Whoever is invalidating constraints needs to do so in an auto layout safe block.  0. IDEInterfaceBuilderKit   0x000000010ea2117f -  1. IDEInterfaceBuilderKit   0x000000010ea21544 -  2. IDEInterfaceBuilderCocoaTouchIntegration 0x0000000114d66eda  3. IDEInterfaceBuilderCocoaTouchIntegration 0x0000000114d04f4b  4. Foundation               0x00007fff86ef9dbe -  5. Foundation               0x00007fff86f2d864 -  6. AppKit                   0x00007fff8c7f35a1 -  7. IDEInterfaceBuilderKit   0x000000010ec4adf5 -  8. IDEInterfaceBuilderKit   0x000000010ec4a934 -  9. IDEInterfaceBuilderKit   0x000000010ea8e5f4 - 10. IDEInterfaceBuilderCocoaIntegration 0x000000011496b5fe - 11. IDEInterfaceBuilderKit   0x000000010eaa1a82 - 12. IDEInterfaceBuilderCocoaIntegration 0x00000001149207d5 - 13. IDEInterfaceBuilderKit   0x000000010ea8e594 - 14. IDEInterfaceBuilderCocoaIntegration 0x000000011496b5fe - 15. IDEInterfaceBuilderKit   0x000000010eaa1a82 - 16. IDEInterfaceBuilderCocoaIntegration 0x00000001149207d5 - 17. IDEInterfaceBuilderKit   0x000000010e9e4da2 - 18. IDEInterfaceBuilderCocoaTouchIntegration 0x0000000114de734c 19. IDEInterfaceBuilderCocoaTouchIntegration 0x0000000114de7dfb 20. IDEInterfaceBuilderCocoaTouchIntegration 0x0000000114de8116 21. IDEInterfaceBuilderKit   0x000000010e9fd7b1 __47-[IBDocument compiledPackageWithOptions:error:]_block_invoke 22. IDEInterfaceBuilderKit   0x000000010ea220c9 - 23. IDEInterfaceBuilderKit   0x000000010e9fd722 - 24. ???                      0x000000010e7d1f8b 25. ???                      0x000000010e7d53ad 26. ???                      0x000000010e7dfb65 27. ???                      0x000000010e7e00c0 28. ???                      0x000000010e7dff90 29. ???                      0x000000010e7de3e7 30. ???                      0x000000010e7df7b7 31. ???                      0x000000010e7ded6e 32. libdyld.dylib            0x00007fff8863c5fd startObject:   <IBCocoaTouchDocument: 0x7f7fda06b000>Method:   -invalidateConstraintsForObjectRepresentation:withBlock:Thread:   <NSThread: 0x7f7fd870ef60>{name = (null), num = 1}Please file a bug at http://bugreport.apple.com with this warning message and any useful information you can provide.2015-04-27 17:40:19.626 ibtoold[8061:507] [MT] DVTAssertions: Warning in /SourceCache/IDEInterfaceBuilder/IDEInterfaceBuilder-5056/InterfaceBuilderKit/Document/IBDocument.m:8282Details:  You cannot invalidate constraints for an object unless you are in a block that guarantees that constraints will be updatedObject:   <IBCocoaTouchDocument: 0x7f7fda06b000>Method:   -invalidateConstraintsForObjectRepresentation:withBlock:Thread:   <NSThread: 0x7f7fd870ef60>{name = (null), num = 1}Please file a bug at http://bugreport.apple.com with this warning message and any useful information you can provide.2015-04-27 17:40:19.854 ibtoold[8061:507] [MT] DVTAssertions: Warning in /SourceCache/IDEInterfaceBuilder/IDEInterfaceBuilder-5056/InterfaceBuilderKit/Document/IBDocument.m:8271Details:  We can't push on an implicit arbitration stack entry that is supposed to be cleared on didFinishEditing because there is no undo manager and so didFinishEditing will not get called and we will be left with a broken arbitration stack. Whoever is invalidating constraints needs to do so in an auto layout safe block.  0. IDEInterfaceBuilderKit   0x000000010ea2117f -  1. IDEInterfaceBuilderKit   0x000000010ea21544 -  2. IDEInterfaceBuilderCocoaTouchIntegration 0x0000000114d66eda  3. IDEInterfaceBuilderCocoaTouchIntegration 0x0000000114d04f4b  4. Foundation               0x00007fff86ef9dbe -  5. Foundation               0x00007fff86f2d864 -  6. AppKit                   0x00007fff8c7f35a1 -  7. IDEInterfaceBuilderKit   0x000000010ec4ae0c -  8. IDEInterfaceBuilderKit   0x000000010ec4a934 -  9. IDEInterfaceBuilderKit   0x000000010ea8e5f4 - 10. IDEInterfaceBuilderCocoaIntegration 0x000000011496b5fe - 11. IDEInterfaceBuilderKit   0x000000010eaa1a82 - 12. IDEInterfaceBuilderCocoaIntegration 0x00000001149207d5 - 13. IDEInterfaceBuilderKit   0x000000010ea8e594 - 14. IDEInterfaceBuilderCocoaIntegration 0x000000011496b5fe - 15. IDEInterfaceBuilderKit   0x000000010eaa1a82 - 16. IDEInterfaceBuilderCocoaIntegration 0x00000001149207d5 - 17. IDEInterfaceBuilderKit   0x000000010e9e4da2 - 18. IDEInterfaceBuilderCocoaTouchIntegration 0x0000000114de734c 19. IDEInterfaceBuilderCocoaTouchIntegration 0x0000000114de7dfb 20. IDEInterfaceBuilderCocoaTouchIntegration 0x0000000114de8116 21. IDEInterfaceBuilderKit   0x000000010e9fd7b1 __47-[IBDocument compiledPackageWithOptions:error:]_block_invoke 22. IDEInterfaceBuilderKit   0x000000010ea220c9 - 23. IDEInterfaceBuilderKit   0x000000010e9fd722 - 24. ???                      0x000000010e7d1f8b 25. ???                      0x000000010e7d53ad 26. ???                      0x000000010e7dfb65 27. ???                      0x000000010e7e00c0 28. ???                      0x000000010e7dff90 29. ???                      0x000000010e7de3e7 30. ???                      0x000000010e7df7b7 31. ???                      0x000000010e7ded6e 32. libdyld.dylib            0x00007fff8863c5fd startObject:   <IBCocoaTouchDocument: 0x7f7fda06b000>Method:   -invalidateConstraintsForObjectRepresentation:withBlock:Thread:   <NSThread: 0x7f7fd870ef60>{name = (null), num = 1}Please file a bug at http://bugreport.apple.com with this warning message and any useful information you can provide.2015-04-27 17:40:20.975 ibtoold[8061:507] [MT] DVTAssertions: Warning in /SourceCache/DVTFrameworks/DVTFrameworks-5074/DVTKit/Utilities/DVTUndoManager.m:153Details:  <rdar://problem/9824173> Removing all actions while there are open undo groups.  Current backtrace:  0  0x0000000110f53d8e __34-[DVTUndoManager removeAllActions]_block_invoke86 (in DVTKit)  1  0x000000010f9af91e DVTInvokeWithLazyFailureHint (in DVTFoundation)  2  0x0000000110e7b672 -[DVTUndoManager removeAllActions] (in DVTKit)  3  0x000000010ea2c38d -[IBDocumentUndoManager removeAllActions] (in IDEInterfaceBuilderKit)  4  0x0000000110f548cc -[DVTUndoManager primitiveInvalidate] (in DVTKit)  5  0x000000010ea2c23d -[IBDocumentUndoManager primitiveInvalidate] (in IDEInterfaceBuilderKit)  6  0x000000010f8cd85a -[DVTInvalidationMixIn invalidate] (in DVTFoundation)  7  0x000000010fdd8e17 -[IDEEditorDocument ide_setUndoManager:] (in IDEKit)  8  0x000000010fdd8322 -[IDEEditorDocument close] (in IDEKit)  9  0x000000011005a899 __54-[IDEEditorDocument closePrivateDocumentSynchronously]_block_invoke (in IDEKit) 10  0x00007fff8ca7b850 __53-[NSDocument performSynchronousFileAccessUsingBlock:]_block_invoke (in AppKit) 11  0x000000011005577d __50-[IDEEditorDocument continueFileAccessUsingBlock:]_block_invoke72 (in IDEKit) 12  0x00007fff8ca7a955 -[NSDocument continueFileAccessUsingBlock:] (in AppKit) 13  0x000000010fe8a25c -[IDEEditorDocument continueFileAccessUsingBlock:] (in IDEKit) 14  0x00007fff8ca7aded -[NSDocument _performFileAccessOnMainThread:usingBlock:] (in AppKit) 15  0x00007fff8ca7b835 -[NSDocument performSynchronousFileAccessUsingBlock:] (in AppKit) 16  0x000000011005a6bd -[IDEEditorDocument closePrivateDocumentSynchronously] (in IDEKit) 17  0x000000010e7d321b (in ibtoold) 18  0x000000010e7d53ad (in ibtoold) 19  0x000000010e7dfb65 (in ibtoold) 20  0x000000010e7e00c0 (in ibtoold) 21  0x000000010e7dff90 (in ibtoold) 22  0x000000010e7de3e7 (in ibtoold) 23  0x000000010e7df7b7 (in ibtoold) 24  0x000000010e7ded6e (in ibtoold) 25  0x00007fff8863c5fd start (in libdyld.dylib) Ordered begin/end backtraces:  0  0x0000000110f541f4 __35-[DVTUndoManager beginUndoGrouping]_block_invoke107 (in DVTKit)  1  0x000000010f9af91e DVTInvokeWithLazyFailureHint (in DVTFoundation)  2  0x0000000110e7ed87 -[DVTUndoManager beginUndoGrouping] (in DVTKit)  3  0x00007fff86f43327 -[NSUndoManager _setGroupIdentifier:] (in Foundation)  4  0x000000010ea14511 -[IBDocument openImplicitUndoGroup] (in IDEInterfaceBuilderKit)  5  0x000000010ea20e29 -[IBDocument invalidateConstraintsForObjectRepresentation:withBlock:] (in IDEInterfaceBuilderKit)  6  0x000000010ea2117f -[IBDocument invalidateConstraintsForHierarchyContainingObject:forceInvalidationOfDescendants:reasonBlock:] (in IDEInterfaceBuilderKit)  7  0x000000010ea21544 -[IBDocument invalidateConstraintsForHierarchyContainingObject:reasonBlock:] (in IDEInterfaceBuilderKit)  8  0x0000000114d66eda (in IDEInterfaceBuilderCocoaTouchIntegration)  9  0x0000000114d04f4b (in IDEInterfaceBuilderCocoaTouchIntegration) 10  0x00007fff86ef9dbe -[NSObject(NSKeyValueCoding) setValue:forKey:] (in Foundation) 11  0x00007fff86f2d864 -[NSObject(NSKeyValueCoding) setValue:forKeyPath:] (in Foundation) 12  0x00007fff8c7f35a1 -[NSView setValue:forKeyPath:] (in AppKit) 13  0x000000010ec4adf5 -[NSObject(IBMemberIntegration) ibSwapInLocalizableStringsDuringCompilingInDocument:usingContext:] (in IDEInterfaceBuilderKit) 14  0x000000010ec4a934 -[NSObject(IBMemberIntegration) ibSwapInLocalizableStringsIfNeededInDocument:withContext:] (in IDEInterfaceBuilderKit) 15  0x000000010ea8e5f4 -[NSObject(IBFrameworkObjectIntegration) ibBeginArchivingDocument:withContext:] (in IDEInterfaceBuilderKit) 16  0x000000011496b5fe -[NSObject(IBAppKitObjectIntegration) ibSwizzledBeginArchivingDocument:withContext:] (in IDEInterfaceBuilderCocoaIntegration) 17  0x000000010eaa1a82 -[NSView(IBViewIntegration) ibBeginArchivingDocument:withContext:] (in IDEInterfaceBuilderKit) 18  0x00000001149207d5 -[NSView(IBAppKitViewIntegration) ibSwizzledNSViewBeginArchivingDocument:withContext:] (in IDEInterfaceBuilderCocoaIntegration) 19  0x000000010ea8e594 -[NSObject(IBFrameworkObjectIntegration) ibBeginArchivingDocument:withContext:] (in IDEInterfaceBuilderKit) 20  0x000000011496b5fe -[NSObject(IBAppKitObjectIntegration) ibSwizzledBeginArchivingDocument:withContext:] (in IDEInterfaceBuilderCocoaIntegration) 21  0x000000010eaa1a82 -[NSView(IBViewIntegration) ibBeginArchivingDocument:withContext:] (in IDEInterfaceBuilderKit) 22  0x00000001149207d5 -[NSView(IBAppKitViewIntegration) ibSwizzledNSViewBeginArchivingDocument:withContext:] (in IDEInterfaceBuilderCocoaIntegration) 23  0x000000010e9e4da2 -[IBDocument willArchiveWithContext:] (in IDEInterfaceBuilderKit) 24  0x0000000114de734c (in IDEInterfaceBuilderCocoaTouchIntegration) 25  0x0000000114de7dfb (in IDEInterfaceBuilderCocoaTouchIntegration) 26  0x0000000114de8116 (in IDEInterfaceBuilderCocoaTouchIntegration) 27  0x000000010e9fd7b1 __47-[IBDocument compiledPackageWithOptions:error:]_block_invoke (in IDEInterfaceBuilderKit) 28  0x000000010ea220c9 -[IBDocument assertIfArbitrationIsScheduledDuring:] (in IDEInterfaceBuilderKit) 29  0x000000010e9fd722 -[IBDocument compiledPackageWithOptions:error:] (in IDEInterfaceBuilderKit) 30  0x000000010e7d1f8b (in ibtoold) 31  0x000000010e7d53ad (in ibtoold) 32  0x000000010e7dfb65 (in ibtoold) 33  0x000000010e7e00c0 (in ibtoold) 34  0x000000010e7dff90 (in ibtoold) 35  0x000000010e7de3e7 (in ibtoold) 36  0x000000010e7df7b7 (in ibtoold) 37  0x000000010e7ded6e (in ibtoold) 38  0x00007fff8863c5fd start (in libdyld.dylib)Object:   <IBDocumentUndoManager: 0x7f7fdaaf72e0>Method:   -removeAllActionsThread:   <NSThread: 0x7f7fd870ef60>{name = (null), num = 1}Please file a bug at http://bugreport.apple.com with this warning message and any useful information you can provide.-0#0#1#-19%DVTDocumentLocation2@73"file:///Users/vasanth/Local/iOS/StopIt/StopIt/Base.lproj/LaunchScreen.xib0000000000000000^747"CompileXIB StopIt/Base.lproj/LaunchScreen.xib    cd /Users/vasanth/Local/iOS/StopIt    export PATH="/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 5.1.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH="/Applications/Xcode 5.1.1.app/Contents/Developer/usr/bin/.."    /Applications/Xcode\ 5.1.1.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 6.1 --output-format human-readable-text --compile /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/Base.lproj/LaunchScreen.nib /Users/vasanth/Local/iOS/StopIt/StopIt/Base.lproj/LaunchScreen.xib36"A0E85FF5-C019-43DE-B33B-F09B4EEB5995-
+b5722E7AA-BA3F-4A91-AF01-6B3AC87A48F6
+
+CCpResource /Applications/Xcode\ 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/ResourceRules.plist
+s451829415.087140
+e451829415.088155
+r1
+xCpResource
+x/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+xDerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/ResourceRules.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Copy DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/ResourceRules.plist219"CpResource /Applications/Xcode\ 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/ResourceRules.plist1c6016a75eeeba41^d2c516a75eeeba41^---0#0#1#-19%DVTDocumentLocation2@118"file:///Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/ResourceRules.plist003490dddcffdf42^792"CpResource /Applications/Xcode\ 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/ResourceRules.plist    cd /Users/vasanth/Local/iOS/StopIt    export PATH="/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 5.1.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode\ 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app36"FFFE48FB-860B-4A97-872D-73768CD1F94D-
+b5722E7AA-BA3F-4A91-AF01-6B3AC87A48F6
+
+CGenerateDSYMFile /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app.dSYM /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/StopIt
+s451829420.987457
+e451829421.092470
+r1
+xGenerateDSYMFile
+x/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app.dSYM
+x/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/StopIt
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Generate /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app.dSYM148"GenerateDSYMFile DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app.dSYM DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/StopIt66d8fcac5eeeba41^c5ac17ad5eeeba41^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app.dSYM003490dddcffdf42^694"GenerateDSYMFile DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app.dSYM DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/StopIt    cd /Users/vasanth/Local/iOS/StopIt    export PATH="/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 5.1.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode\ 5.1.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/StopIt -o /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app.dSYM36"CCD08114-B465-4CA2-8166-7ABD3A48B0BD-
+b5722E7AA-BA3F-4A91-AF01-6B3AC87A48F6
+
+CLd /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/StopIt normal armv7
+s451829415.223346
+e451829415.753673
+r1
+xLd
+x/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/StopIt
+xnormal
+xarmv7
+d/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/Objects-normal/armv7/StopIt.LinkFileList
+d/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/Objects-normal/armv7/TimerLabel.o
+d/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/Objects-normal/armv7/ViewController.o
+d/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/Objects-normal/armv7/AppDelegate.o
+d/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/Objects-normal/armv7/main.o
+d/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode 5.1.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Link /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/StopIt82"Ld DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/StopIt normal armv7153c39a75eeeba41^80f1c0a75eeeba41^---0#0#1#--1348"Ld DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/StopIt normal armv7    cd /Users/vasanth/Local/iOS/StopIt    export IPHONEOS_DEPLOYMENT_TARGET=6.1    export PATH="/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 5.1.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode\ 5.1.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode\ 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos -F/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos -filelist /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/Objects-normal/armv7/StopIt.LinkFileList -Xlinker -rpath -Xlinker @executable_path/Frameworks -dead_strip -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=6.1 -Xlinker -dependency_info -Xlinker /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/Objects-normal/armv7/StopIt_dependency_info.dat -o /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/StopIt36"680B5689-21E1-4A5B-8238-2AE544951110-
+b5722E7AA-BA3F-4A91-AF01-6B3AC87A48F6
+
+CProcessInfoPlistFile /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/Info.plist /Users/vasanth/Local/iOS/StopIt/StopIt/Info.plist
+s451829420.983669
+e451829420.986927
+r1
+xProcessInfoPlistFile
+x/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/Info.plist
+x/Users/vasanth/Local/iOS/StopIt/StopIt/Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Process /Users/vasanth/Local/iOS/StopIt/StopIt/Info.plist109"ProcessInfoPlistFile DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/Info.plist StopIt/Info.plistd2e3fbac5eeeba41^efa9fcac5eeeba41^---0#0#1#-19%DVTDocumentLocation2@56"file:///Users/vasanth/Local/iOS/StopIt/StopIt/Info.plist0000000000000000^1001"ProcessInfoPlistFile DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/Info.plist StopIt/Info.plist    cd /Users/vasanth/Local/iOS/StopIt    export PATH="/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 5.1.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/vasanth/Local/iOS/StopIt/StopIt/Info.plist -genpkginfo /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/ResourceRules.plist -additionalcontentfile /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/assetcatalog_generated_info.plist -o /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/Info.plist36"B8932974-EF40-42A0-8E57-FF952A85544E-
+b5722E7AA-BA3F-4A91-AF01-6B3AC87A48F6
+
+CProcessProductPackaging /Applications/Xcode\ 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/StopIt.xcent
+s451829421.096362
+e451829421.118607
+r1
+xProcessProductPackaging
+x/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+x/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/StopIt.xcent
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection244"ProcessProductPackaging /Applications/Xcode\ 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/StopIt.xcent244"ProcessProductPackaging /Applications/Xcode\ 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/StopIt.xcentb7b618ad5eeeba41^d09b1ead5eeeba41^---0#0#1#-19%DVTDocumentLocation2@131"file:///Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/StopIt.xcent003490dddcffdf42^802"ProcessProductPackaging /Applications/Xcode\ 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/StopIt.xcent    cd /Users/vasanth/Local/iOS/StopIt    export PATH="/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 5.1.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode\ 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/StopIt.build/Debug-iphoneos/StopIt.build/StopIt.xcent36"DB14914E-AE79-416D-843E-430C4CEF9BEF-
+b5722E7AA-BA3F-4A91-AF01-6B3AC87A48F6
+
+CProcessProductPackaging /Users/vasanth/Library/MobileDevice/Provisioning\ Profiles/00d3242a-ff56-4ed0-840c-16b0a5740f15.mobileprovision /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/embedded.mobileprovision
+s451829421.092974
+e451829421.095542
+r1
+xProcessProductPackaging
+x/Users/vasanth/Library/MobileDevice/Provisioning Profiles/00d3242a-ff56-4ed0-840c-16b0a5740f15.mobileprovision
+x/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/embedded.mobileprovision
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection220"ProcessProductPackaging /Users/vasanth/Library/MobileDevice/Provisioning\ Profiles/00d3242a-ff56-4ed0-840c-16b0a5740f15.mobileprovision DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/embedded.mobileprovision220"ProcessProductPackaging /Users/vasanth/Library/MobileDevice/Provisioning\ Profiles/00d3242a-ff56-4ed0-840c-16b0a5740f15.mobileprovision DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/embedded.mobileprovision12dd17ad5eeeba41^257718ad5eeeba41^---0#0#1#-19%DVTDocumentLocation2@123"file:///Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/embedded.mobileprovision003490dddcffdf42^728"ProcessProductPackaging /Users/vasanth/Library/MobileDevice/Provisioning\ Profiles/00d3242a-ff56-4ed0-840c-16b0a5740f15.mobileprovision DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/embedded.mobileprovision    cd /Users/vasanth/Local/iOS/StopIt    export PATH="/Applications/Xcode 5.1.1.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode 5.1.1.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Users/vasanth/Library/MobileDevice/Provisioning\ Profiles/00d3242a-ff56-4ed0-840c-16b0a5740f15.mobileprovision -o /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app/embedded.mobileprovision36"4FCA6F97-E6DF-4C06-97D5-70292F0070F7-
+b5722E7AA-BA3F-4A91-AF01-6B3AC87A48F6
+
+CTouch /Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Products/Debug-iphoneos/StopIt.app
+r0
+
