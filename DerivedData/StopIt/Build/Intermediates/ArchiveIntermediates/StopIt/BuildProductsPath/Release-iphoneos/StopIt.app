@@ -1,0 +1,1 @@
+/Users/vasanth/Local/iOS/StopIt/DerivedData/StopIt/Build/Intermediates/ArchiveIntermediates/StopIt/InstallationBuildProductsLocation/Applications/StopIt.app

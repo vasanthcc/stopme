@@ -9,19 +9,22 @@
 #import "ViewController.h"
 #import "TimerLabel.h"
 #import "SnowFallView.h"
+#import "RatingControl.h"
 
 #define ZERO_ACHEIVEMENT 1000
 #define VIEW_FRAME self.view.frame
+
 @interface ViewController ()
 {
     UILabel *lblShowTarget,*lblShowTimer,*lblShowBest,*lblShowTotal,*lblShowNumberOfFiveStar;
-    UIButton *btnTryAgain;//*btnStart,*btnStop
+    UILabel *lblTargetKey;
     TimerLabel *timer;
     int currentTime;
     long output;
     UIView *viewResult;
     BOOL isStarted;
     SnowFallView *snowView;
+    UIView *contentView;
 }
 @end
 
@@ -42,42 +45,48 @@
     [self.view addGestureRecognizer:labelTapGesture];
     
     
-//    MZTimerLabel *redStopwatch = [[MZTimerLabel alloc] init];
-//    redStopwatch.frame = CGRectMake(100,50,100,20);
-//    redStopwatch.timeLabel.font = [UIFont systemFontOfSize:20.0f];
-//    redStopwatch.timeLabel.textColor = [UIColor redColor];
-//    [self.view addSubview:redStopwatch];
-//    [redStopwatch start];
+    UIButton *btnShare=[UIButton buttonWithType:UIButtonTypeRoundedRect];
+    btnShare.frame=CGRectMake(self.view.frame.size.width-120,20,100,30);
+    [btnShare setTitle:@"SHARE" forState:UIControlStateNormal];
+    [btnShare setTitle:@"SHARE" forState:UIControlStateSelected];
+    [btnShare addTarget:self action:@selector(clickShare) forControlEvents:UIControlEventTouchUpInside];
+    [btnShare setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    btnShare.contentHorizontalAlignment = UIControlContentHorizontalAlignmentCenter;
+    btnShare.layer.borderWidth=1;
+    btnShare.layer.borderColor=[UIColor whiteColor].CGColor;
+    //[self.view addSubview:btnShare];
     
-//    -(void)start;
-//    -(void)pause;
-//    -(void)reset;
+   // [self.view bringSubviewToFront:btnShare];
+
     
     lblShowTimer=[[UILabel alloc] initWithFrame:CGRectMake(0,0,VIEW_FRAME.size.width,VIEW_FRAME.size.height/3)];
-    lblShowTimer.font=[UIFont fontWithName:@"DBLCDTempBlack" size:80];
+    lblShowTimer.font=[UIFont fontWithName:@"Helvetica-Oblique" size:80];
     lblShowTimer.textColor=[UIColor cyanColor];
     lblShowTimer.textAlignment=NSTextAlignmentCenter;
     lblShowTimer.backgroundColor=[UIColor clearColor];
     [self.view addSubview:lblShowTimer];
     
     lblShowBest=[[UILabel alloc] initWithFrame:CGRectMake(0,lblShowTimer.frame.origin.y+lblShowTimer.frame.size.height,VIEW_FRAME.size.width/2,(VIEW_FRAME.size.height/3)/2)];
-    lblShowBest.font=[UIFont fontWithName:@"Helvetica" size:18];
+    lblShowBest.font=[UIFont fontWithName:@"Helvetica-Oblique" size:24];
     lblShowBest.textColor=[UIColor purpleColor];
     lblShowBest.textAlignment=NSTextAlignmentCenter;
+    lblShowBest.numberOfLines=0;
     lblShowBest.backgroundColor=[UIColor clearColor];
     [self.view addSubview:lblShowBest];
     
     lblShowTotal=[[UILabel alloc] initWithFrame:CGRectMake(VIEW_FRAME.size.width/2,lblShowBest.frame.origin.y,VIEW_FRAME.size.width/2,(VIEW_FRAME.size.height/3)/2)];
-    lblShowTotal.font=[UIFont fontWithName:@"Helvetica" size:18];
+    lblShowTotal.font=[UIFont fontWithName:@"Helvetica-Oblique" size:24];
     lblShowTotal.textColor=[UIColor purpleColor];
     lblShowTotal.textAlignment=NSTextAlignmentCenter;
+        lblShowTotal.numberOfLines=0;
     lblShowTotal.backgroundColor=[UIColor clearColor];
     [self.view addSubview:lblShowTotal];
     
     lblShowNumberOfFiveStar=[[UILabel alloc] initWithFrame:CGRectMake(0,lblShowBest.frame.origin.y+lblShowBest.frame.size.height,VIEW_FRAME.size.width,(VIEW_FRAME.size.height/3)/2)];
-    lblShowNumberOfFiveStar.font=[UIFont fontWithName:@"Helvetica" size:16];
+    lblShowNumberOfFiveStar.font=[UIFont fontWithName:@"Helvetica-Oblique" size:24];
     lblShowNumberOfFiveStar.textColor=[UIColor purpleColor];
     lblShowNumberOfFiveStar.textAlignment=NSTextAlignmentCenter;
+        lblShowNumberOfFiveStar.numberOfLines=0;
     lblShowNumberOfFiveStar.backgroundColor=[UIColor clearColor];
     [self.view addSubview:lblShowNumberOfFiveStar];
     
@@ -86,18 +95,18 @@
     timer.timeFormat = @"ss : SS";
     
     
-    UILabel *lblTarget=[[UILabel alloc] initWithFrame:CGRectMake(0,2*(VIEW_FRAME.size.height/3),VIEW_FRAME.size.width,30)];
+    lblTargetKey=[[UILabel alloc] initWithFrame:CGRectMake(0,2*(VIEW_FRAME.size.height/3),VIEW_FRAME.size.width,30)];
     
-    lblTarget.font=[UIFont fontWithName:@"Helvetica" size:20];
-    lblTarget.textColor=[UIColor lightGrayColor];
-    lblTarget.textAlignment=NSTextAlignmentLeft;
-    lblTarget.text=@"Stop me here";
-    lblTarget.backgroundColor=[UIColor clearColor];
-    lblTarget.textAlignment=NSTextAlignmentCenter;
-    [self.view addSubview:lblTarget];
+    lblTargetKey.font=[UIFont fontWithName:@"AppleColorEmoji" size:20];
+    lblTargetKey.textColor=[UIColor lightGrayColor];
+    lblTargetKey.textAlignment=NSTextAlignmentLeft;
+    lblTargetKey.text=@"TAP TO PLAY";
+    lblTargetKey.backgroundColor=[UIColor clearColor];
+    lblTargetKey.textAlignment=NSTextAlignmentCenter;
+    [self.view addSubview:lblTargetKey];
     
-    lblShowTarget=[[UILabel alloc] initWithFrame:CGRectMake(0,lblTarget.frame.origin.y+20,VIEW_FRAME.size.width,80)];
-    lblShowTarget.font=[UIFont fontWithName:@"DBLCDTempBlack" size:50];
+    lblShowTarget=[[UILabel alloc] initWithFrame:CGRectMake(0,lblTargetKey.frame.origin.y+20,VIEW_FRAME.size.width,80)];
+    lblShowTarget.font=[UIFont fontWithName:@"Helvetica-Oblique" size:50];//DBLCDTempBlack
     lblShowTarget.textColor=[UIColor cyanColor];
     lblShowTarget.backgroundColor=[UIColor clearColor];
     lblShowTarget.textAlignment=NSTextAlignmentCenter;
@@ -114,9 +123,9 @@
 }
 -(void)loadScoresFromDB
 {
-    lblShowBest.text=[NSString stringWithFormat:@"Best :%@",[self getDBValueForThisKey:@"BEST"]];
-        lblShowTotal.text=[NSString stringWithFormat:@"Total :%@",[self getDBValueForThisKey:@"TOTAL"]];
-        lblShowNumberOfFiveStar.text=[NSString stringWithFormat:@"5 stars :%@",[self getDBValueForThisKey:@"FIVESTAR"]];
+    lblShowBest.text=[NSString stringWithFormat:@"Best\n%@",[self getDBValueForThisKey:@"BEST"]];
+        lblShowTotal.text=[NSString stringWithFormat:@"Total\n%@",[self getDBValueForThisKey:@"TOTAL"]];
+        lblShowNumberOfFiveStar.text=[NSString stringWithFormat:@"5 stars\n%@",[self getDBValueForThisKey:@"FIVESTAR"]];
 }
 -(void)performViewClick
 {
@@ -135,6 +144,7 @@
 {
     if(viewResult.frame.size.width>0)
     {
+        isStarted = !isStarted;
         [UIView beginAnimations:nil context:nil];
         [UIView setAnimationDuration:1];
         
@@ -143,16 +153,20 @@
         
         [UIView commitAnimations];
     }
-    
+    else
+    {
+    lblTargetKey.text=@"STOP ME HERE";
     [self stopSnowFall];
     
     lblShowTarget.text = [NSString stringWithFormat:@"%02d : %02d", [self getRandomNumberBetween:0 to:10],[self getRandomNumberBetween:0 to:100]];
     
     [timer reset];
     [timer start];
+    }
 }
 -(void)proceedWithStop
 {
+    lblTargetKey.text=@"TAP TO PLAY";
     [timer pause];
     
     [self showResultWindow];
@@ -181,28 +195,16 @@
     viewResult.frame = CGRectMake(VIEW_FRAME.origin.x,VIEW_FRAME.origin.y+(VIEW_FRAME.size.height/3) , VIEW_FRAME.size.width, VIEW_FRAME.size.height/3);
     [viewResult setHidden:FALSE];
     
-    UILabel *lblShowStarPoint=[[UILabel alloc] initWithFrame:CGRectMake((viewResult.frame.size.width/2)-60,(viewResult.frame.size.height/2)-60,120,120)];
-    lblShowStarPoint.font=[UIFont fontWithName:@"Helvetica-Bold" size:70];
-    lblShowStarPoint.textColor=[UIColor blackColor];
-    lblShowStarPoint.numberOfLines=0;
-    lblShowStarPoint.textAlignment=NSTextAlignmentLeft;
-    lblShowStarPoint.backgroundColor=[UIColor purpleColor];
-    lblShowStarPoint.textAlignment=NSTextAlignmentCenter;
-    [viewResult addSubview:lblShowStarPoint];
+   UIImageView *img_Complete=[[UIImageView alloc] initWithFrame:CGRectMake((viewResult.frame.size.width/2)-40,(viewResult.frame.size.height/2)-80,80,80)];
+    [viewResult addSubview:img_Complete];
     
-    btnTryAgain=[UIButton buttonWithType:UIButtonTypeCustom];
-    btnTryAgain.frame=CGRectMake((viewResult.frame.size.width/2)-60,viewResult.frame.size.height-80,120,60);
-    [btnTryAgain setTitle:@"Play Again" forState:UIControlStateNormal];
-    [btnTryAgain setTitle:@"Play Again" forState:UIControlStateSelected];
-    [btnTryAgain addTarget:self action:@selector(proceedWithPlayAgain) forControlEvents:UIControlEventTouchUpInside];
-    [btnTryAgain setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    btnTryAgain.contentHorizontalAlignment = UIControlContentHorizontalAlignmentCenter;
-    btnTryAgain.backgroundColor=[UIColor orangeColor];
-    btnTryAgain.titleLabel.backgroundColor=[UIColor clearColor];
-    btnTryAgain.imageView.backgroundColor=[UIColor clearColor];
     
-    //[viewResult addSubview:btnTryAgain];
-    
+    RatingControl *controlRating = [[RatingControl alloc]initWithLocation:CGPointMake((viewResult.frame.size.width/2)-72, (viewResult.frame.size.height/2)+20) emptyColor:[UIColor whiteColor] solidColor:[UIColor yellowColor] andMaxRating:5];
+    controlRating.backgroundColor = [UIColor clearColor];
+    controlRating.starFontSize=25;
+    controlRating.starSpacing=2;
+    controlRating.starWidthAndHeight=28;
+    [viewResult addSubview:controlRating];
 
     CGRect f = viewResult.frame;
     
@@ -247,6 +249,8 @@
     
     [self setCalculatedResultDifferenceInOutput];
     
+    int curScore = 0;
+    
     if(output==ZERO_ACHEIVEMENT)
            lblShowDifference.text =@"You have missed a lot.\nPlease try again";
        else if(output==0)
@@ -254,52 +258,83 @@
            else
    lblShowDifference.text =[NSString stringWithFormat:@"Missed : \n%ld milli seconds",output];
     
-    if(output==4)
+    
+    if(output==0)
     {
-        lblShowStarPoint.text=@"*5*";
+        [controlRating setRating:5];
+        img_Complete.image=[UIImage imageNamed:@"5"];
+            [self startSnowFall:400];
+        curScore = 50;
         
-        [self setDBValueForThisKey:@"FIVESTAR" andValue:[NSString stringWithFormat:@"%d",[[self getDBValueForThisKey:@"FIVESTAR"] integerValue] + 1]];
+        [self setDBValueForThisKey:@"FIVESTAR" andValue:[NSString stringWithFormat:@"%ld",[[self getDBValueForThisKey:@"FIVESTAR"] integerValue] + 1]];
     }
     else if(output<10)
     {
-        lblShowStarPoint.text=@"*4*";
+        [controlRating setRating:4];
+                    img_Complete.image=[UIImage imageNamed:@"4"];
+                                [self startSnowFall:50];
+                curScore = 10;
+        
     }
     else if(output<20)
     {
-        lblShowStarPoint.text=@"*3*";
+        [controlRating setRating:3];
+                    img_Complete.image=[UIImage imageNamed:@"3"];
+                        [self startSnowFall:30];
+                curScore = 5;
     }
     else if(output<30)
     {
-        lblShowStarPoint.text=@"*2*";
+        [controlRating setRating:2];
+                    img_Complete.image=[UIImage imageNamed:@"2"];
+                        [self startSnowFall:10];
+        
+                curScore = 3;
     }
     else if(output<40)
     {
-        lblShowStarPoint.text=@"*1*";
+        [controlRating setRating:1];
+                    img_Complete.image=[UIImage imageNamed:@"1"];
+                [self startSnowFall:5];
+                curScore = 2;
     }
     else
     {
-        lblShowStarPoint.text=@"*0*";
+        [self startSnowFall:0];
+        [controlRating setRating:0];
+        img_Complete.image=[UIImage imageNamed:@"0"];
+        curScore = -5;
     }
-    int curScore =(1000-output)/10;
-    lblShowStarComment.text =[NSString stringWithFormat:@"Score :\n%d",curScore>0?curScore:0];
     
-    [self startSnowFall];
+    lblShowStarComment.text =[NSString stringWithFormat:@"Score\n%d",curScore>0?curScore:-5];
+
     
     //Save Score in DB
     if([[self getDBValueForThisKey:@"BEST"] integerValue] < curScore)
     [self setDBValueForThisKey:@"BEST" andValue:[NSString stringWithFormat:@"%d",curScore]];
     
-    [self setDBValueForThisKey:@"TOTAL" andValue:[NSString stringWithFormat:@"%d",[[self getDBValueForThisKey:@"TOTAL"] integerValue] + curScore]];
+    if([[self getDBValueForThisKey:@"TOTAL"] integerValue] + curScore < 0)
+    {
+        [self setDBValueForThisKey:@"TOTAL" andValue:@"0"];
+    }
+    else
+    {
+    [self setDBValueForThisKey:@"TOTAL" andValue:[NSString stringWithFormat:@"%ld",[[self getDBValueForThisKey:@"TOTAL"] integerValue] + curScore]];
+    }
     
     [self loadScoresFromDB];
     
 }
--(void)startSnowFall
+-(void)clickShare
+{
+    
+}
+-(void)startSnowFall:(int)flakesCount
 {
     snowView = [[SnowFallView alloc] initWithFrame:CGRectMake(0.0, 0.0, self.view.frame.size.width*2, self.view.frame.size.height*2)];
     [self.view addSubview:snowView];
     
-    snowView.flakesCount = 100;
+    snowView.flakesCount = flakesCount;
     [snowView letItSnow];
 }
 -(void)stopSnowFall
@@ -316,9 +351,6 @@
     
     long secStopped=[[[lblShowTimer.text componentsSeparatedByString:@" : "] objectAtIndex:0] integerValue];
     long millisecStopped = [[[lblShowTimer.text componentsSeparatedByString:@" : "] objectAtIndex:1] integerValue];
-    
-    NSLog(@"Target label %@",lblShowTarget.text);
-        NSLog(@"Stopped label %@",lblShowTimer.text);
 
             NSLog(@"Stopped label label %@",[[lblShowTarget.text componentsSeparatedByString:@" : "] objectAtIndex:0]);
             NSLog(@"Stopped label label %@",[[lblShowTarget.text componentsSeparatedByString:@" : "] objectAtIndex:0]);
@@ -332,7 +364,9 @@
     {
         if((secStopped-secTarget)==1)
         {
-            output = 333;
+            //SecStopped --- 03:14
+            //SecTarget ---- 02:56
+            output = (100-millisecTarget)+millisecStopped;
         }
         else
             output=ZERO_ACHEIVEMENT;
@@ -341,7 +375,9 @@
     {
         if((secTarget-secStopped)==1)
         {
-                        output = 444;
+            //SecStopped --- 04:54
+            //SecTarget ---- 05:18
+            output = (100-millisecStopped)+millisecTarget;
         }
         else
             output=ZERO_ACHEIVEMENT;
@@ -371,30 +407,4 @@ if([[NSUserDefaults standardUserDefaults] stringForKey:strKey] !=nil && ![[[NSUs
     [[NSUserDefaults standardUserDefaults] synchronize];
 
 }
-//- (void)timerTick:(NSTimer *)timer {
-//    currentTime += 1 ;
-//    [self populateLabelwithTime:currentTime];
-//    
-//}
-//- (void)populateLabelwithTime:(int)milliseconds
-//{
-//    int seconds = milliseconds/100;
-//    int minutes = seconds / 60;
-//    int hours = minutes / 60;
-//    
-//    seconds -= minutes * 60;
-//    minutes -= hours * 60;
-//    
-//    //    NSString * result = [NSString stringWithFormat:@"%@%02d:%02d:%02d:%02d", (milliseconds<0?@"-":@""), hours, minutes, seconds,milliseconds%1000];
-//    
-//    NSString * result = [NSString stringWithFormat:@"%02d : %02d", seconds,milliseconds%100];
-//    lblShowTimer.text = result;
-//    
-//    if([lblShowTarget.text isEqualToString:@""])
-//    {
-//        lblShowTarget.text = [NSString stringWithFormat:@"%02d : %02d", [self getRandomNumberBetween:0 to:5],[self getRandomNumberBetween:0 to:100]];
-//    }
-//    
-//}
-
 @end

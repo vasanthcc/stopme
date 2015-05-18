@@ -17,6 +17,13 @@
 		6A869A001AE7BC2F000BA3ED /* StopItTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A8699FF1AE7BC2F000BA3ED /* StopItTests.m */; };
 		6AAF5BC11AFBA4B3007D458B /* SnowFallView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAF5BC01AFBA4B3007D458B /* SnowFallView.m */; };
 		6AAF5BC51AFBA60B007D458B /* snowflake.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AAF5BC41AFBA60B007D458B /* snowflake.png */; };
+		6AB74BE91AFF380E00570908 /* RatingControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB74BE71AFF380E00570908 /* RatingControl.m */; };
+		6AB74C0A1AFF48BB00570908 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AB74C041AFF48BB00570908 /* 0.png */; };
+		6AB74C0B1AFF48BB00570908 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AB74C051AFF48BB00570908 /* 1.png */; };
+		6AB74C0C1AFF48BB00570908 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AB74C061AFF48BB00570908 /* 2.png */; };
+		6AB74C0D1AFF48BB00570908 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AB74C071AFF48BB00570908 /* 3.png */; };
+		6AB74C0E1AFF48BB00570908 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AB74C081AFF48BB00570908 /* 4.png */; };
+		6AB74C0F1AFF48BB00570908 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AB74C091AFF48BB00570908 /* 5.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +55,14 @@
 		6AAF5BBF1AFBA4B3007D458B /* SnowFallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnowFallView.h; sourceTree = "<group>"; };
 		6AAF5BC01AFBA4B3007D458B /* SnowFallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnowFallView.m; sourceTree = "<group>"; };
 		6AAF5BC41AFBA60B007D458B /* snowflake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snowflake.png; sourceTree = "<group>"; };
+		6AB74BE71AFF380E00570908 /* RatingControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RatingControl.m; sourceTree = "<group>"; };
+		6AB74BE81AFF380E00570908 /* RatingControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RatingControl.h; sourceTree = "<group>"; };
+		6AB74C041AFF48BB00570908 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		6AB74C051AFF48BB00570908 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		6AB74C061AFF48BB00570908 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		6AB74C071AFF48BB00570908 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		6AB74C081AFF48BB00570908 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		6AB74C091AFF48BB00570908 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +104,8 @@
 		6A8699E21AE7BC2F000BA3ED /* StopIt */ = {
 			isa = PBXGroup;
 			children = (
+				6AB74BE71AFF380E00570908 /* RatingControl.m */,
+				6AB74BE81AFF380E00570908 /* RatingControl.h */,
 				6AAF5BC31AFBA60B007D458B /* Images */,
 				6AAF5BBF1AFBA4B3007D458B /* SnowFallView.h */,
 				6AAF5BC01AFBA4B3007D458B /* SnowFallView.m */,
@@ -135,6 +152,12 @@
 		6AAF5BC31AFBA60B007D458B /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				6AB74C041AFF48BB00570908 /* 0.png */,
+				6AB74C051AFF48BB00570908 /* 1.png */,
+				6AB74C061AFF48BB00570908 /* 2.png */,
+				6AB74C071AFF48BB00570908 /* 3.png */,
+				6AB74C081AFF48BB00570908 /* 4.png */,
+				6AB74C091AFF48BB00570908 /* 5.png */,
 				6AAF5BC41AFBA60B007D458B /* snowflake.png */,
 			);
 			path = Images;
@@ -221,9 +244,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AB74C0C1AFF48BB00570908 /* 2.png in Resources */,
+				6AB74C0A1AFF48BB00570908 /* 0.png in Resources */,
+				6AB74C0E1AFF48BB00570908 /* 4.png in Resources */,
+				6AB74C0D1AFF48BB00570908 /* 3.png in Resources */,
 				6A8699EF1AE7BC2F000BA3ED /* Main.storyboard in Resources */,
 				6A8699F41AE7BC2F000BA3ED /* LaunchScreen.xib in Resources */,
 				6AAF5BC51AFBA60B007D458B /* snowflake.png in Resources */,
+				6AB74C0B1AFF48BB00570908 /* 1.png in Resources */,
+				6AB74C0F1AFF48BB00570908 /* 5.png in Resources */,
 				6A8699F11AE7BC2F000BA3ED /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -242,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AB74BE91AFF380E00570908 /* RatingControl.m in Sources */,
 				6A686C841AEE50B200181E1C /* TimerLabel.m in Sources */,
 				6AAF5BC11AFBA4B3007D458B /* SnowFallView.m in Sources */,
 				6A8699EC1AE7BC2F000BA3ED /* ViewController.m in Sources */,

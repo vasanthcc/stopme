@@ -339,8 +339,11 @@
             self.timeLabel.text = beyondedDate;
             self.dateFormatter.dateFormat = originalTimeFormat;
             //0.4.7 added---endb//
-        }else{
+        }
+        else
+        {
             self.timeLabel.text = [self.dateFormatter stringFromDate:timeToShow];
+//            NSLog(@"Time Value %@",[self.dateFormatter stringFromDate:timeToShow]);
         }
     }
     
