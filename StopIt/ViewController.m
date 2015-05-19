@@ -10,6 +10,7 @@
 #import "TimerLabel.h"
 #import "SnowFallView.h"
 #import "RatingControl.h"
+#import <GoogleMobileAds/GoogleMobileAds.h>
 
 #define ZERO_ACHEIVEMENT 1000
 #define VIEW_FRAME self.view.frame
@@ -25,6 +26,7 @@
     BOOL isStarted;
     SnowFallView *snowView;
     UIView *contentView;
+    GADBannerView  *bannerAdView;
 }
 @end
 
@@ -35,14 +37,19 @@
     // Do any additional setup after loading the view, typically from a nib.
     [self createView];
     [self.view setBackgroundColor:[UIColor blackColor]];
+    [self loadAd];
 }
 -(void)createView
 {
 
     isStarted = NO;
     
+    contentView = [[UIView alloc]initWithFrame:CGRectMake(0,0,self.view.frame.size.width,self.view.frame.size.height-50)];
+    contentView.backgroundColor = [UIColor blackColor];
+    [self.view addSubview:contentView];
+    
     UITapGestureRecognizer *labelTapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(performViewClick)];
-    [self.view addGestureRecognizer:labelTapGesture];
+    [contentView addGestureRecognizer:labelTapGesture];
     
     
     UIButton *btnShare=[UIButton buttonWithType:UIButtonTypeRoundedRect];
@@ -72,7 +79,7 @@
     lblShowBest.textAlignment=NSTextAlignmentCenter;
     lblShowBest.numberOfLines=0;
     lblShowBest.backgroundColor=[UIColor clearColor];
-    [self.view addSubview:lblShowBest];
+    [contentView addSubview:lblShowBest];
     
     lblShowTotal=[[UILabel alloc] initWithFrame:CGRectMake(VIEW_FRAME.size.width/2,lblShowBest.frame.origin.y,VIEW_FRAME.size.width/2,(VIEW_FRAME.size.height/3)/2)];
     lblShowTotal.font=[UIFont fontWithName:@"Helvetica-Oblique" size:24];
@@ -80,7 +87,7 @@
     lblShowTotal.textAlignment=NSTextAlignmentCenter;
         lblShowTotal.numberOfLines=0;
     lblShowTotal.backgroundColor=[UIColor clearColor];
-    [self.view addSubview:lblShowTotal];
+    [contentView addSubview:lblShowTotal];
     
     lblShowNumberOfFiveStar=[[UILabel alloc] initWithFrame:CGRectMake(0,lblShowBest.frame.origin.y+lblShowBest.frame.size.height,VIEW_FRAME.size.width,(VIEW_FRAME.size.height/3)/2)];
     lblShowNumberOfFiveStar.font=[UIFont fontWithName:@"Helvetica-Oblique" size:24];
@@ -88,7 +95,7 @@
     lblShowNumberOfFiveStar.textAlignment=NSTextAlignmentCenter;
         lblShowNumberOfFiveStar.numberOfLines=0;
     lblShowNumberOfFiveStar.backgroundColor=[UIColor clearColor];
-    [self.view addSubview:lblShowNumberOfFiveStar];
+    [contentView addSubview:lblShowNumberOfFiveStar];
     
     
     timer = [[TimerLabel alloc] initWithLabel:lblShowTimer andTimerType:TimerLabelTypeStopWatch];
@@ -103,7 +110,7 @@
     lblTargetKey.text=@"TAP TO PLAY";
     lblTargetKey.backgroundColor=[UIColor clearColor];
     lblTargetKey.textAlignment=NSTextAlignmentCenter;
-    [self.view addSubview:lblTargetKey];
+    [contentView addSubview:lblTargetKey];
     
     lblShowTarget=[[UILabel alloc] initWithFrame:CGRectMake(0,lblTargetKey.frame.origin.y+20,VIEW_FRAME.size.width,80)];
     lblShowTarget.font=[UIFont fontWithName:@"Helvetica-Oblique" size:50];//DBLCDTempBlack
@@ -111,11 +118,11 @@
     lblShowTarget.backgroundColor=[UIColor clearColor];
     lblShowTarget.textAlignment=NSTextAlignmentCenter;
     lblShowTarget.text=@"";
-    [self.view addSubview:lblShowTarget];
+    [contentView addSubview:lblShowTarget];
     
     viewResult = [[UIView alloc]init];//WithFrame:CGRectMake(VIEW_FRAME.origin.x,VIEW_FRAME.origin.y , VIEW_FRAME.size.width, VIEW_FRAME.size.height)];
     viewResult.backgroundColor = [UIColor purpleColor];
-    [self.view addSubview:viewResult];
+    [contentView addSubview:viewResult];
     
     [viewResult setHidden:TRUE];
 
@@ -158,7 +165,7 @@
     lblTargetKey.text=@"STOP ME HERE";
     [self stopSnowFall];
     
-    lblShowTarget.text = [NSString stringWithFormat:@"%02d : %02d", [self getRandomNumberBetween:0 to:10],[self getRandomNumberBetween:0 to:100]];
+    lblShowTarget.text = [NSString stringWithFormat:@"%02d : %02d", [self getRandomNumberBetween:1 to:9],[self getRandomNumberBetween:0 to:99]];
     
     [timer reset];
     [timer start];
@@ -332,14 +339,14 @@
 -(void)startSnowFall:(int)flakesCount
 {
     snowView = [[SnowFallView alloc] initWithFrame:CGRectMake(0.0, 0.0, self.view.frame.size.width*2, self.view.frame.size.height*2)];
-    [self.view addSubview:snowView];
+    [contentView addSubview:snowView];
     
     snowView.flakesCount = flakesCount;
     [snowView letItSnow];
 }
 -(void)stopSnowFall
 {
-    if([snowView isDescendantOfView:self.view])
+    if([snowView isDescendantOfView:contentView])
     {
         [snowView removeFromSuperview];
     }
@@ -364,8 +371,6 @@
     {
         if((secStopped-secTarget)==1)
         {
-            //SecStopped --- 03:14
-            //SecTarget ---- 02:56
             output = (100-millisecTarget)+millisecStopped;
         }
         else
@@ -375,8 +380,6 @@
     {
         if((secTarget-secStopped)==1)
         {
-            //SecStopped --- 04:54
-            //SecTarget ---- 05:18
             output = (100-millisecStopped)+millisecTarget;
         }
         else
@@ -406,5 +409,19 @@ if([[NSUserDefaults standardUserDefaults] stringForKey:strKey] !=nil && ![[[NSUs
     [[NSUserDefaults standardUserDefaults] setObject:strVal forKey:strKey];
     [[NSUserDefaults standardUserDefaults] synchronize];
 
+}
+-(void)loadAd
+{
+    // Replace this ad unit ID with your own ad unit ID.
+    bannerAdView = [[GADBannerView alloc]initWithFrame:CGRectMake(0, self.view.frame.size.height-50, 320, 50)];
+    bannerAdView.adUnitID = @"ca-app-pub-3505054954021719/8886985189";
+    bannerAdView.rootViewController = self;
+    [self.view addSubview:bannerAdView];
+    GADRequest *request = [GADRequest request];
+    // Requests test ads on devices you specify. Your test device ID is printed to the console when
+    // an ad request is made. GADBannerView automatically returns test ads when running on a
+    // simulator.
+    request.testDevices = @[@"98259d179403fa469c6fc74151a174d193a68ccd"];//@[kGADSimulatorID];
+    [bannerAdView loadRequest:request];
 }
 @end

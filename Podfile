@@ -4,7 +4,7 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'StopIt' do
-
+pod 'Google-Mobile-Ads-SDK', '~> 7.0'
 end
 
 target 'StopItTests' do
