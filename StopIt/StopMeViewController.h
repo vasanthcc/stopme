@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
-
+typedef enum
+{
+    kLEVEL0,
+    kLEVEL1,
+    kLEVEL2,
+    kLEVEL3
+}Level;
+@interface StopMeViewController : UIViewController
+@property Level selectedLevel;
 @end
 

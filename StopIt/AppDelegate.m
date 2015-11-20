@@ -7,16 +7,32 @@
 //
 
 #import "AppDelegate.h"
-
+#import "LevelSelectionViewController.h"
 @interface AppDelegate ()
-
+@property  UINavigationController *mainNavigationController;
 @end
 
 @implementation AppDelegate
-
+@synthesize mainNavigationController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    
+    
+    UIViewController *initializationController=[[LevelSelectionViewController alloc] init];
+    
+    self.mainNavigationController = [[UINavigationController alloc] initWithRootViewController:initializationController];
+    self.mainNavigationController.delegate = self.mainNavigationController;
+    self.mainNavigationController.navigationBarHidden = YES;
+    self.window.rootViewController = self.mainNavigationController;
+    
+    //[self handleChartTechnicalIndicator];
+    
+    //    [self setUpHockeyApp];
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
