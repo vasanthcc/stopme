@@ -31,27 +31,46 @@
 {
     self.view.backgroundColor = [UIColor blackColor];
     
-    UIButton *btnMail=[UIButton buttonWithType:UIButtonTypeRoundedRect];
-    btnMail.frame=CGRectMake(20,20,(self.view.frame.size.width/2)-40,30);
-    [btnMail setTitle:@"FEEDBACKS" forState:UIControlStateNormal];
-    [btnMail setTitle:@"FEEDBACKS" forState:UIControlStateSelected];
-    [btnMail addTarget:self action:@selector(sendMail) forControlEvents:UIControlEventTouchUpInside];
-    [btnMail setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    btnMail.contentHorizontalAlignment = UIControlContentHorizontalAlignmentCenter;
-    btnMail.layer.borderWidth=1;
-    btnMail.layer.borderColor=[UIColor orangeColor].CGColor;
-    [self.view addSubview:btnMail];
+//    UIButton *btnMail=[UIButton buttonWithType:UIButtonTypeRoundedRect];
+//    btnMail.frame=CGRectMake(20,20,(self.view.frame.size.width/2)-40,30);
+//    [btnMail setTitle:@"FEEDBACKS" forState:UIControlStateNormal];
+//    [btnMail setTitle:@"FEEDBACKS" forState:UIControlStateSelected];
+//    [btnMail addTarget:self action:@selector(sendMail) forControlEvents:UIControlEventTouchUpInside];
+//    [btnMail setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+//    btnMail.contentHorizontalAlignment = UIControlContentHorizontalAlignmentCenter;
+//    btnMail.layer.borderWidth=1;
+//    btnMail.layer.borderColor=[UIColor orangeColor].CGColor;
+//    [self.view addSubview:btnMail];
+//    
+//    UIButton *btnShare=[UIButton buttonWithType:UIButtonTypeRoundedRect];
+//    btnShare.frame=CGRectMake(self.view.frame.size.width/2,20,(self.view.frame.size.width/2)-40,30);
+//    [btnShare setTitle:@"SHARE" forState:UIControlStateNormal];
+//    [btnShare setTitle:@"SHARE" forState:UIControlStateSelected];
+//    [btnShare addTarget:self action:@selector(shareApp) forControlEvents:UIControlEventTouchUpInside];
+//    [btnShare setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+//    btnShare.contentHorizontalAlignment = UIControlContentHorizontalAlignmentCenter;
+//    btnShare.layer.borderWidth=1;
+//    btnShare.layer.borderColor=[UIColor orangeColor].CGColor;
+//    [self.view addSubview:btnShare];
     
-    UIButton *btnShare=[UIButton buttonWithType:UIButtonTypeRoundedRect];
-    btnShare.frame=CGRectMake(self.view.frame.size.width/2,20,(self.view.frame.size.width/2)-40,30);
-    [btnShare setTitle:@"SHARE" forState:UIControlStateNormal];
-    [btnShare setTitle:@"SHARE" forState:UIControlStateSelected];
+    UIButton *btnMail=[[UIButton alloc] initWithFrame:CGRectMake(self.view.frame.size.width-50, StatusBarHeight, 30, 30)];
+    [btnMail addTarget:self action:@selector(sendMail) forControlEvents:UIControlEventTouchUpInside];
+    btnMail.backgroundColor=[UIColor clearColor];
+    [btnMail setImage:[UIImage imageNamed:@"mail"] forState:UIControlStateNormal];
+    [btnMail setImage:[UIImage imageNamed:@"mail"] forState:UIControlStateSelected];
+    [btnMail setContentMode:UIViewContentModeCenter];
+    btnMail.backgroundColor=[UIColor clearColor];
+    [self.view addSubview: btnMail];
+    
+    
+    UIButton *btnShare=[[UIButton alloc] initWithFrame:CGRectMake(self.view.frame.size.width-100, StatusBarHeight, 30, 30)];
     [btnShare addTarget:self action:@selector(shareApp) forControlEvents:UIControlEventTouchUpInside];
-    [btnShare setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
-    btnShare.contentHorizontalAlignment = UIControlContentHorizontalAlignmentCenter;
-    btnShare.layer.borderWidth=1;
-    btnShare.layer.borderColor=[UIColor orangeColor].CGColor;
-    [self.view addSubview:btnShare];
+    btnShare.backgroundColor=[UIColor clearColor];
+    [btnShare setImage:[UIImage imageNamed:@"share"] forState:UIControlStateNormal];
+    [btnShare setImage:[UIImage imageNamed:@"share"] forState:UIControlStateSelected];
+    [btnShare setContentMode:UIViewContentModeCenter];
+    btnShare.backgroundColor=[UIColor clearColor];
+    [self.view addSubview: btnShare];
     
     
     tableLevels=[[UITableView alloc] initWithFrame:CGRectMake(0,50,view_frame.size.width,view_frame.size.height-50)];

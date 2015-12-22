@@ -149,6 +149,8 @@
         lblNotification.text=@"LEVEL 1";
     else if(self.selectedLevel==kLEVEL2)
         lblNotification.text=@"LEVEL 2";
+    else if(self.selectedLevel==kLEVEL3)
+        lblNotification.text=@"LEVEL 3";
 }
 -(void)loadScoresFromDB
 {
