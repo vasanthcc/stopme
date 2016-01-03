@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "LevelSelectionViewController.h"
+#import "GAI.h"
 @interface AppDelegate ()
 @property  UINavigationController *mainNavigationController;
 @end
@@ -19,23 +20,33 @@
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    
-    
     UIViewController *initializationController=[[LevelSelectionViewController alloc] init];
     
     self.mainNavigationController = [[UINavigationController alloc] initWithRootViewController:initializationController];
-    self.mainNavigationController.delegate = self.mainNavigationController;
+    //self.mainNavigationController.delegate = self.mainNavigationController;
     self.mainNavigationController.navigationBarHidden = YES;
     self.window.rootViewController = self.mainNavigationController;
     
-    //[self handleChartTechnicalIndicator];
+    [self initiateGoogleAnalytics];
     
-    //    [self setUpHockeyApp];
     [self.window makeKeyAndVisible];
     
     return YES;
 }
-
+-(void)initiateGoogleAnalytics
+{
+    // 1
+    [GAI sharedInstance].trackUncaughtExceptions = YES;
+    
+    // 2
+    [[GAI sharedInstance].logger setLogLevel:kGAILogLevelVerbose];
+    
+    // 3
+    [GAI sharedInstance].dispatchInterval = 20;
+    
+    // 4
+    id<GAITracker> tracker = [[GAI sharedInstance] trackerWithTrackingId:@"UA-XXXXXXX-Y"];
+}
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
