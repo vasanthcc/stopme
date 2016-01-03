@@ -18,8 +18,8 @@
 		6A869A001AE7BC2F000BA3ED /* StopItTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A8699FF1AE7BC2F000BA3ED /* StopItTests.m */; };
 		6A9014511B0D020E00BCFD8C /* APLPositionToBoundsMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A90144F1B0D020E00BCFD8C /* APLPositionToBoundsMapping.m */; };
 		6A92CA3A1BF77F0A00C8E4E2 /* LevelSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A92CA391BF77F0A00C8E4E2 /* LevelSelectionViewController.m */; };
-		6A98215F1BFCD72D009C434A /* icn_lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A98215D1BFCD72D009C434A /* icn_lock.png */; settings = {ASSET_TAGS = (); }; };
-		6A9821601BFCD72D009C434A /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A98215E1BFCD72D009C434A /* lock.png */; settings = {ASSET_TAGS = (); }; };
+		6A98215F1BFCD72D009C434A /* icn_lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A98215D1BFCD72D009C434A /* icn_lock.png */; };
+		6A9821601BFCD72D009C434A /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A98215E1BFCD72D009C434A /* lock.png */; };
 		6AAF5BC11AFBA4B3007D458B /* SnowFallView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AAF5BC01AFBA4B3007D458B /* SnowFallView.m */; };
 		6AAF5BC51AFBA60B007D458B /* snowflake.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AAF5BC41AFBA60B007D458B /* snowflake.png */; };
 		6AB74BE91AFF380E00570908 /* RatingControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB74BE71AFF380E00570908 /* RatingControl.m */; };
@@ -225,6 +225,7 @@
 				6A8699DD1AE7BC2F000BA3ED /* Frameworks */,
 				6A8699DE1AE7BC2F000BA3ED /* Resources */,
 				82AA9177500C13636E719EDF /* Copy Pods Resources */,
+				A9A0EF562E8040BA089DC1BF /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -349,6 +350,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StopIt/Pods-StopIt-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9A0EF562E8040BA089DC1BF /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StopIt/Pods-StopIt-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -493,7 +509,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Market Simplified Inc";
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = StopIt/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "f00535f1-6744-4dcb-be22-2c7e53b0d1be";
@@ -511,7 +527,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Market Simplified Inc";
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = StopIt/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "f00535f1-6744-4dcb-be22-2c7e53b0d1be";

@@ -53,11 +53,11 @@
 {
     isStarted = NO;
     
-    UIButton *btnBack=[[UIButton alloc] initWithFrame:CGRectMake(20, StatusBarHeight, 30, 30)];
+    UIButton *btnBack=[[UIButton alloc] initWithFrame:CGRectMake(20, StatusBarHeight, 25, 25)];
     [btnBack addTarget:self action:@selector(btnBackClicked) forControlEvents:UIControlEventTouchUpInside];
     btnBack.backgroundColor=[UIColor clearColor];
-    [btnBack setImage:[UIImage imageNamed:@"back"] forState:UIControlStateNormal];
-    [btnBack setImage:[UIImage imageNamed:@"back"] forState:UIControlStateSelected];
+    [btnBack setImage:[UIImage imageNamed:@"back"] forState:UIControlStateNormal];//home.png
+    [btnBack setImage:[UIImage imageNamed:@"back"] forState:UIControlStateSelected];//home.png
     [btnBack setContentMode:UIViewContentModeCenter];
     btnBack.backgroundColor=[UIColor clearColor];
     [self.view addSubview: btnBack];
