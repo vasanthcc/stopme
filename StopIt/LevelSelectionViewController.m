@@ -145,14 +145,18 @@
         
     }
     
-    if([self canPlay:indexPath.row])
-        ((UIView *)[cell viewWithTag:1]).hidden = YES;
-    else
-        ((UIView *)[cell viewWithTag:1]).hidden = NO;
-    
     
     ((UILabel *)[cell viewWithTag:2]).text =[[[arrayItems objectAtIndex:indexPath.row] componentsSeparatedByString:@"|"] objectAtIndex:1];
     ((UILabel *)[cell viewWithTag:3]).text =[[[arrayItems objectAtIndex:indexPath.row] componentsSeparatedByString:@"|"] objectAtIndex:0];
+    
+    if([self canPlay:indexPath.row])
+    {
+        ((UIView *)[cell viewWithTag:1]).hidden = YES;
+        if(indexPath.row !=0)
+        ((UILabel *)[cell viewWithTag:3]).text =@"Succesfully Unlocked";
+    }
+    else
+        ((UIView *)[cell viewWithTag:1]).hidden = NO;
     
     return cell;
 }
@@ -231,7 +235,7 @@
 }
 -(void)shareApp
 {
-    NSArray * shareItems = @[@"Stop Me App for iPhone",[UIImage imageNamed:@"5.png"]];
+    NSArray * shareItems = @[@"Stop Me App for iPhone",[UIImage imageNamed:@"sharingStopme"]];
     
     UIActivityViewController * avc = [[UIActivityViewController alloc] initWithActivityItems:shareItems applicationActivities:nil];
     
@@ -247,7 +251,7 @@
         mail.mailComposeDelegate = self;
         [mail setSubject:@"Suggestion/Feedback from Sleeping App USER"];
         [mail setMessageBody:@"" isHTML:NO];
-        [mail setToRecipients:@[@"coolcap.cc@gmail.com"]];
+        [mail setToRecipients:@[@"anjanna.cc@gmail.com"]];
         
         [self presentViewController:mail animated:YES completion:NULL];
     }

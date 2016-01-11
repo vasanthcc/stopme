@@ -12,6 +12,9 @@
 #import "RatingControl.h"
 #import <GoogleMobileAds/GoogleMobileAds.h>
 #import "AppMacros.h"
+#import "GAIFields.h"
+#import "GAIDictionaryBuilder.h"
+#import "GAI.h"
 //#define UIColorFromRGB(rgbValue) [UIColor \
 //colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
 //green:((float)((rgbValue & 0xFF00) >> 8))/255.0 \
@@ -49,6 +52,23 @@
     [self.view setBackgroundColor:colorScreenBackground];//colorScreenBackground
     //[self loadAd];
 }
+-(void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    
+    id<GAITracker> tracker = [[GAI sharedInstance] defaultTracker];
+    
+    if(self.selectedLevel==kLEVEL0)
+    [tracker set:kGAIScreenName value:@"Level 0"];
+    else if(self.selectedLevel==kLEVEL1)
+    [tracker set:kGAIScreenName value:@"Level 1"];
+    else if(self.selectedLevel==kLEVEL2)
+    [tracker set:kGAIScreenName value:@"Level 2"];
+    else if(self.selectedLevel==kLEVEL3)
+    [tracker set:kGAIScreenName value:@"Level 3"];
+
+    [tracker send:[[GAIDictionaryBuilder createAppView] build]];
+}
 -(void)createView
 {
     isStarted = NO;
@@ -56,6 +76,7 @@
     UIButton *btnBack=[[UIButton alloc] initWithFrame:CGRectMake(20, StatusBarHeight, 25, 25)];
     [btnBack addTarget:self action:@selector(btnBackClicked) forControlEvents:UIControlEventTouchUpInside];
     btnBack.backgroundColor=[UIColor clearColor];
+    btnBack.alpha=0.5;
     [btnBack setImage:[UIImage imageNamed:@"back"] forState:UIControlStateNormal];//home.png
     [btnBack setImage:[UIImage imageNamed:@"back"] forState:UIControlStateSelected];//home.png
     [btnBack setContentMode:UIViewContentModeCenter];

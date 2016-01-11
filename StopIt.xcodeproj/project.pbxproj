@@ -10,6 +10,7 @@
 		4ED8799F36E6017ED379AE99 /* libPods-StopIt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3E00F2C8C0B8D8368AB267 /* libPods-StopIt.a */; };
 		6A023DFE1C39A12200318CA2 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A023DFD1C39A12200318CA2 /* libz.dylib */; };
 		6A023E021C39A13100318CA2 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A023E011C39A13100318CA2 /* libsqlite3.0.dylib */; };
+		6A22D0821C4437F800749A1F /* sharingStopme.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A22D0811C4437F800749A1F /* sharingStopme.png */; };
 		6A37609D1C39B1E800466433 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A37609C1C39B1E800466433 /* SystemConfiguration.framework */; };
 		6A37609F1C39B1F700466433 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A37609E1C39B1F700466433 /* CoreData.framework */; };
 		6A3760A11C39B20A00466433 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A3760A01C39B20A00466433 /* libGoogleAnalyticsServices.a */; };
@@ -52,6 +53,7 @@
 		6A023DFD1C39A12200318CA2 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		6A023DFF1C39A12A00318CA2 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		6A023E011C39A13100318CA2 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		6A22D0811C4437F800749A1F /* sharingStopme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sharingStopme.png; sourceTree = "<group>"; };
 		6A3760921C39B1C900466433 /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAI.h; path = GoogleAnalytics/Library/GAI.h; sourceTree = SOURCE_ROOT; };
 		6A3760931C39B1C900466433 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAIDictionaryBuilder.h; path = GoogleAnalytics/Library/GAIDictionaryBuilder.h; sourceTree = SOURCE_ROOT; };
 		6A3760941C39B1C900466433 /* GAIEcommerceFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceFields.h; path = GoogleAnalytics/Library/GAIEcommerceFields.h; sourceTree = SOURCE_ROOT; };
@@ -250,6 +252,7 @@
 		6AAF5BC31AFBA60B007D458B /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				6A22D0811C4437F800749A1F /* sharingStopme.png */,
 				6A98215D1BFCD72D009C434A /* icn_lock.png */,
 				6A98215E1BFCD72D009C434A /* lock.png */,
 				6AB74C041AFF48BB00570908 /* 0.png */,
@@ -348,6 +351,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AB74C0C1AFF48BB00570908 /* 2.png in Resources */,
+				6A22D0821C4437F800749A1F /* sharingStopme.png in Resources */,
 				6AB74C0A1AFF48BB00570908 /* 0.png in Resources */,
 				6AB74C0E1AFF48BB00570908 /* 4.png in Resources */,
 				6AB74C0D1AFF48BB00570908 /* 3.png in Resources */,

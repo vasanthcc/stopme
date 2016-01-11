@@ -24,10 +24,10 @@ alpha:((float)((argbValue & 0xFF000000) >> 24))/255.0]
 #define FIVESTAR @"FIVESTAR"
 #define BEST @"BEST"
 
-#define Level0_MaxPoints @"50"//150
-#define Level1_MaxPoints @"40"//120
-#define Level2_MaxPoints @"30"//100
-#define Level3_MaxPoints @"20"//100
+#define Level0_MaxPoints @"500"//500
+#define Level1_MaxPoints @"400"//400
+#define Level2_MaxPoints @"300"//300
+#define Level3_MaxPoints @"300"//300
 
 #pragma  mark Common Size Keys
 #define SCREEN_FRAME [[UIScreen mainScreen] bounds]

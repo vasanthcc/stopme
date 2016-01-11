@@ -20,6 +20,8 @@
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
+    
     UIViewController *initializationController=[[LevelSelectionViewController alloc] init];
     
     self.mainNavigationController = [[UINavigationController alloc] initWithRootViewController:initializationController];
