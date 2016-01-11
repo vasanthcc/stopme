@@ -50,7 +50,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     [self createView];
     [self.view setBackgroundColor:colorScreenBackground];//colorScreenBackground
-    //[self loadAd];
+    [self loadAd];
 }
 -(void)viewDidAppear:(BOOL)animated
 {
@@ -67,7 +67,7 @@
     else if(self.selectedLevel==kLEVEL3)
     [tracker set:kGAIScreenName value:@"Level 3"];
 
-    [tracker send:[[GAIDictionaryBuilder createAppView] build]];
+    [tracker send:[[GAIDictionaryBuilder createScreenView] build]];
 }
 -(void)createView
 {
@@ -570,7 +570,7 @@
     // Requests test ads on devices you specify. Your test device ID is printed to the console when
     // an ad request is made. GADBannerView automatically returns test ads when running on a
     // simulator.
-    request.testDevices = @[kGADSimulatorID];//@[@"98259d179403fa469c6fc74151a174d193a68ccd"];//@[kGADSimulatorID];
+    request.testDevices = @[@"98259d179403fa469c6fc74151a174d193a68"];
     [bannerAdView loadRequest:request];
 }
 -(void)btnBackClicked
